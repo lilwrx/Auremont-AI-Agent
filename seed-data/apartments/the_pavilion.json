@@ -1,0 +1,226 @@
+{
+  "project": {
+    "id": "the-pavilion",
+    "name": "The Pavilion",
+    "full_name": "The Pavilion - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "The Ocean View",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Pavilion là 'ốc đảo xanh giữa lòng Thành phố Biển Ocean City', được mệnh danh là căn hộ 'Singapore' tại thành phố biển, thuộc phân khu The Ocean View, Vinhomes Ocean Park.",
+    "overview": {
+      "towers": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "towers_on_sale": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ],
+      "total_units": "hơn 2.600 căn",
+      "unit_types": "Studio, 1 ngủ, 1 ngủ+1, 2 ngủ, 3 ngủ",
+      "area_range": "27 – 98,4m²",
+      "floors": "30 – 32 tầng",
+      "handover": "Từ tháng 3/2024",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The Pavilion tọa lạc mặt đường Lý Thánh Tông rộng 40m, thuộc phân khu The Ocean View, nằm trong lòng đại đô thị Vinhomes Ocean Park nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của khu đô thị như hồ Ngọc Trai, Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học Vinschool, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Mặt đường Lý Thánh Tông rộng 40m"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 27,
+      "size_max_sqm": 35,
+      "price_min": 1400000000,
+      "price_max": 1600000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ",
+      "size_min_sqm": 35,
+      "size_max_sqm": 47,
+      "price_min": 1600000000,
+      "price_max": 2300000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ + 1",
+      "size_min_sqm": 43,
+      "size_max_sqm": 48,
+      "price_min": 2000000000,
+      "price_max": 2300000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ",
+      "size_min_sqm": 53,
+      "size_max_sqm": 74,
+      "price_min": 2400000000,
+      "price_max": 3300000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ",
+      "size_min_sqm": 78,
+      "size_max_sqm": 99.5,
+      "price_min": 4100000000,
+      "price_max": 5100000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    }
+  ],
+  "tower_details": {
+    "P4": {
+      "subdivision": "The Pavilion",
+      "parent_sub_zone": "The Ocean View",
+      "scale": "30 tầng nổi và 2 tầng hầm",
+      "floor_use": [
+        "Tầng 1–2: shophouse",
+        "Tầng 3–13 và 15–30: căn hộ",
+        "Tầng 14: phòng lánh nạn"
+      ],
+      "road_adjacency": "Kề đường nội khu rộng 17 m; không trực tiếp bám mặt đường Lý Thánh Tông",
+      "boundaries": [
+        "Phía Đông Bắc: trường học",
+        "Phía Đông Nam: khu thấp tầng BF3 và The Royal Sail",
+        "Phía Tây Nam: tiện ích nội khu và tòa P3",
+        "Phía Tây Bắc: tòa P1"
+      ],
+      "source_name": "Vinhomes Market — Tòa P4 Vinhomes Ocean Park",
+      "source_url": "https://market.vinhomes.vn/blog/toa-p4-vinhomes-ocean-park"
+    }
+  },
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu lên tới 9%"
+    },
+    {
+      "no": 2,
+      "type": "Quà tặng",
+      "content": "Tặng miễn phí gói Premium Smart Home"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 0% lãi suất, ân hạn nợ gốc đến tháng 6/2025"
+    },
+    {
+      "no": 4,
+      "type": "Quà tặng",
+      "content": "Quà tặng trị giá lên tới 150 triệu đồng"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Botanic Garden",
+      "category": "Cảnh quan",
+      "has_photo": true
+    },
+    {
+      "name": "Hồ cảnh quan",
+      "category": "Cảnh quan",
+      "has_photo": false
+    },
+    {
+      "name": "Đảo Yoga",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    },
+    {
+      "name": "Khu vui chơi trẻ em",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Bể trị liệu",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 35, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn 1 ngủ", "size_sqm": 47, "apartment_type": "1 ngủ", "display_order": 2, "url": null },
+    { "name": "Căn 1 ngủ + 1", "size_sqm": 48, "apartment_type": "1 ngủ + 1", "display_order": 3, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 74, "apartment_type": "2 ngủ", "display_order": 4, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 99.5, "apartment_type": "3 ngủ", "display_order": 5, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The Pavilion trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The Pavilion trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng tiện ích The Pavilion",
+        "description": "Mặt bằng tổng thể tiện ích phân khu The Pavilion, có đánh số vị trí tiện ích",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      {
+        "tower": "P1",
+        "floor_label": "Mặt bằng tòa P1",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "tower": "P2",
+        "floor_label": "Mặt bằng tòa P2",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "tower": "P3",
+        "floor_label": "Mặt bằng tòa P3",
+        "display_order": 3,
+        "url": null
+      },
+      {
+        "tower": "P4",
+        "floor_label": "Mặt bằng tòa P4",
+        "display_order": 4,
+        "url": null
+      }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Botanic Garden", "display_order": 1, "url": null },
+      { "name": "Đảo Yoga", "display_order": 2, "url": null },
+      { "name": "Khu vui chơi trẻ em", "display_order": 3, "url": null },
+      { "name": "Bể trị liệu", "display_order": 4, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

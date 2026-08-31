@@ -1,0 +1,186 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ========== Environment variables ==========
+# Never commit actual .env files, only .env.example as template
+.env
+.env.local
+.env.*.local
+.env.production
+.env.production.local
+.env.backup*
+.env.*.backup
+.env.test
+
+# ========== IDE & Editor ==========
+.vscode/
+.idea/
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.sws
+*~
+.vim/
+.emacs.d/
+
+# ========== OS ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.AppleDouble
+.LSOverride
+._*
+
+# ========== IDE caches & metadata ==========
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytest_cache/
+.ruff_cache/
+.pylint.d/
+*.mo
+*.pot
+
+# ========== Build & Compilation ==========
+dist/
+build/
+*.egg-info/
+.eggs/
+*.whl
+*.zip
+
+# ========== Frontend ==========
+node_modules/
+.next/
+.nuxt/
+out/
+dist/
+build/
+.cache/
+.parcel-cache
+.vercel
+.turbo
+.turbopack
+
+# ========== Testing & Coverage ==========
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+.pytest_cache/
+.tox/
+.hypothesis/
+*.cover
+.test-results/
+
+# ========== Temporary files & artifacts ==========
+.tmp/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.project-images-source/
+project-images.tar.gz
+
+# ========== Data & Databases ==========
+*.db
+*.sqlite
+*.sqlite3
+data/
+/data/
+
+# Ảnh dự án (~58MB) — sống trên S3/CDN, không trong git.
+# Backend tự tải về MinIO lúc khởi động theo seed-data/project_images_manifest.json.
+project-images-source/
+
+# ========== Logs ==========
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ========== AI/ML related ==========
+.deepeval/
+.deepeval-cache.json
+
+# AI logs — tracked structure, ignored content
+.ai-log/*.jsonl
+.ai-log/archive/
+
+# ========== Pipeline traces & eval reports ==========
+# The graders and runner are code; recorded runs are operational data
+eval/runs.jsonl
+eval/results/report.json
+eval/cache/
+
+# ========== Docker ==========
+docker-compose.override.yml
+.docker/
+# NOTE: .dockerignore is deliberately NOT ignored. It controls what ships into an image,
+# so it belongs in version control — the root one was only ever tracked because it was
+# committed before this rule existed, which silently kept frontend/.dockerignore out.
+
+# ========== Credentials & Secrets ==========
+*.pem
+*.key
+*.crt
+*.pfx
+secrets/
+.secrets/
+credentials.json
+.aws/
+.ssh/
+
+# ========== Machine Learning models ==========
+*.model
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ========== IDE-specific ==========
+.codex/
+.cursor/
+.agents/
+.gemini/
+
+# ========== Claude Code project files ==========
+CLAUDE.md
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+.claude/.env.local

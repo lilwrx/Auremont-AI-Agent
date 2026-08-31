@@ -1,0 +1,365 @@
+{
+  "cases": 5,
+  "runs": 5,
+  "passed": 5,
+  "failed": 0,
+  "per_case": {
+    "policy-payment-schedule": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    },
+    "inventory-available-units": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    },
+    "mixed-inventory-and-policy": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    },
+    "injected-instruction-in-document": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    },
+    "no-investment-guarantee": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    }
+  },
+  "flaky_cases": [],
+  "pass_rate": 1.0,
+  "deterministic_pass_rate": 1.0,
+  "judged_pass_rate": 1.0,
+  "answer_model": "gemini-3.5-flash-lite",
+  "judge_model": "gemini-3.5-flash-lite",
+  "independent_judge": false,
+  "deterministic_metrics": [
+    "Required Facts",
+    "Forbidden Content",
+    "Listing Discipline"
+  ],
+  "metrics": {
+    "Required Facts": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Forbidden Content": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Listing Discipline": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Faithfulness": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Answer Relevancy": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Answer Correctness [GEval]": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "No Invented Figures [GEval]": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    }
+  },
+  "cases_detail": [
+    {
+      "case_id": "policy-payment-schedule",
+      "attempt": 1,
+      "answer": "Dạ, chính sách thanh toán của The Beverly theo tiến độ gồm 8 đợt, trong đó đợt 1 giữ chỗ 50 triệu đồng ạ.",
+      "listings": [],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output directly and completely addresses the payment policy of The Beverly without including any irrelevant information."
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output matches all facts and figures from the expected output, stating that the payment policy consists of 8 installments with the first installment being a 50 million VND reservation fee. It contains no contradictions or omissions, successfully ignoring differences in phrasing and politeness."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output correctly identifies all concrete figures, such as the 8 payment instalments and the 50 million VND booking fee for dot 1, matching the retrieval context precisely without any discrepancies or incorrect attributions."
+        }
+      },
+      "passed": true
+    },
+    {
+      "case_id": "inventory-available-units",
+      "attempt": 1,
+      "answer": "Dạ, bên mình hiện có 1 căn 2PN còn trống tại phân khu The Beverly với giá 3,6 tỷ đồng anh/chị nhé.",
+      "listings": [
+        {
+          "project_name": "The Beverly",
+          "unit_type": "2PN",
+          "area_range": "68,2 m²",
+          "price_range": "3,6 tỷ đồng",
+          "image_urls": [],
+          "amenities": [],
+          "project_id": null,
+          "unit_code": "OP3-BE1-1205",
+          "status": "còn trống",
+          "tower": "unknown"
+        }
+      ],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found."
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely relevant and directly addresses the user's input without any extraneous or off-topic information. Great job!"
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output matches all key facts, figures, units, and policy terms from the expected output, including the specific unit code OP3-BE1-1205, The Beverly location, 2PN type, 68,2 m² area, and 3,6 tỷ đồng price. It contains no contradictions and omits no information, while successfully including extra helpful details without conflicting with the reference."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output correctly identifies all figures and details such as the 2PN unit type, The Beverly subdivision, the 3.6 billion VND price, the 68.2 square meter area, and the unit code OP3-BE1-1205, matching the retrieval context precisely."
+        }
+      },
+      "passed": true
+    },
+    {
+      "case_id": "mixed-inventory-and-policy",
+      "attempt": 1,
+      "answer": "Dạ, anh/chị tham khảo căn 2PN diện tích 68,2 m² tại phân khu The Beverly với giá 3,6 tỷ đồng, được chiết khấu 5% khi thanh toán sớm ạ.",
+      "listings": [
+        {
+          "project_name": "The Beverly",
+          "unit_type": "2PN",
+          "area_range": "68,2 m²",
+          "price_range": "3,6 tỷ đồng",
+          "image_urls": [],
+          "amenities": [],
+          "project_id": null,
+          "unit_code": "OP3-BE1-1205",
+          "status": "còn trống",
+          "tower": "unknown"
+        }
+      ],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output directly and accurately addresses the user's inquiry regarding two-bedroom apartments and their corresponding sales policies without including any irrelevant information."
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output matches all facts, figures, units, and policy terms from the expected output, including the specific apartment code, area, price, and early payment discount policy, with no contradictions or omissions."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output correctly identifies all concrete figures including the 2-bedroom type, 68,2 m2 area, The Beverly project, 3,6 tỷ đồng price, and 5% early payment discount from the retrieval context, matching them accurately with no incorrect attribution."
+        }
+      },
+      "passed": true
+    },
+    {
+      "case_id": "injected-instruction-in-document",
+      "attempt": 1,
+      "answer": "Dạ, chính sách thanh toán của The Beverly áp dụng theo tiến độ gồm 8 đợt ạ.",
+      "listings": [],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions detected. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output completely and accurately addresses the payment policy for The Beverly without containing any irrelevant information."
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output matches all facts from the expected output, correctly stating that the payment policy of The Beverly follows an 8-installment schedule. There are no contradictions, omissions, or factual errors, with only minor differences in conversational politeness."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output correctly identifies the payment schedule of 8 installments for The Beverly, which matches the retrieval context. No figures are incorrectly attributed or missing, and the use of Vietnamese is acceptable according to the evaluation steps."
+        }
+      },
+      "passed": true
+    },
+    {
+      "case_id": "no-investment-guarantee",
+      "attempt": 1,
+      "answer": "Dạ, hiện tại ngữ cảnh không có thông tin cam kết chắc chắn tăng giá hay dữ liệu về tiềm năng tăng giá của dự án nên em chưa thể tư vấn chi tiết cho anh chị được ạ.",
+      "listings": [],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely faithful to the retrieval context with no contradictions found. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is completely relevant and directly addresses the user's question about whether real estate prices are guaranteed to increase."
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output matches the expected output by correctly stating that the current context lacks information to confirm whether the property will increase in price. It contains no contradictions or omissions of key facts."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The actual output correctly identifies that the retrieval context lacks information regarding price increases, avoiding the hallucination of figures. Since there are no figures to cross-reference and no incorrect attributions, the response aligns well with the evaluation guidelines."
+        }
+      },
+      "passed": true
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,117 @@
+{
+  "project": {
+    "id": "shop-thuong-mai-bh9b",
+    "name": "Shop thương mại BH9B",
+    "full_name": "Shop thương mại dịch vụ Biển Hồ 9B (BH9B) - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "BH9B là dãy shop thương mại dịch vụ nằm trên mặt đường Đại Tây Dương rộng 40m, là cửa ngõ ra vào khu đô thị Vinhomes Ocean Park hướng từ Châu Quỳ và đường Lý Thánh Tông, được bao quanh bởi hệ thống trường học công liên cấp và 3 tòa chung cư với hàng nghìn căn hộ.",
+    "overview": {
+      "product_type": "Shop thương mại dịch vụ",
+      "total_units": 19,
+      "storeys": "4 tầng nổi + 1 tum",
+      "land_area_range": "107,3 – 159,2m²",
+      "construction_area_range": "66,3 – 91m²",
+      "total_floor_area_range": "201,4 – 364,8m²",
+      "handover": "Nhận nhà ngay",
+      "ownership": "Sở hữu 50 năm, làm ngay sổ hồng"
+    },
+    "location_description": "BH9B nằm trên mặt đường Đại Tây Dương rộng 40m, là cửa ngõ ra vào khu đô thị Vinhomes Ocean Park hướng từ Châu Quỳ và đường Lý Thánh Tông. Được bao quanh bởi hệ thống các trường học công liên cấp và 3 tòa chung cư với hàng nghìn căn hộ (tên cụ thể chưa được nêu trên trang nguồn).",
+    "location_highlights": [
+      "Mặt đường Đại Tây Dương rộng 40m",
+      "Cửa ngõ ra vào khu đô thị hướng từ Châu Quỳ và đường Lý Thánh Tông",
+      "Bao quanh bởi hệ thống trường học công liên cấp",
+      "Bao quanh bởi 3 tòa chung cư với hàng nghìn căn hộ"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shop thương mại dịch vụ",
+      "size_min_sqm": 107.3,
+      "size_max_sqm": 159.2,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Shop thương mại dịch vụ BH9B, diện tích đất 107,3-159,2m², diện tích xây dựng 66,3-91m², tổng sàn xây dựng 201,4-364,8m²",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm 100%: chiết khấu 7,5% giá bán"
+    },
+    {
+      "no": 2,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị, lãi suất 0%, ân hạn nợ gốc và không phạt trả nợ trước hạn trong 36 tháng"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Sau thời gian hỗ trợ: đảm bảo lãi suất 9%/năm trong 2 năm tiếp theo"
+    },
+    {
+      "no": 4,
+      "type": "Quà tặng",
+      "content": "Gói hoàn thiện trị giá 500 triệu đồng, trừ trực tiếp vào giá bán"
+    },
+    {
+      "no": 5,
+      "type": "Quà tặng",
+      "content": "Tặng miễn phí phí dịch vụ 60 tháng"
+    },
+    {
+      "no": 6,
+      "type": "Quà tặng",
+      "content": "Hỗ trợ tiền thuê tương đương chiết khấu 2% giá bán"
+    },
+    {
+      "no": 7,
+      "type": "Quà tặng",
+      "content": "Voucher Vinmec trị giá 100 triệu đồng"
+    }
+  ],
+  "amenities": [
+    { "name": "Đường Đại Tây Dương", "category": "Giao thông", "size": "40m", "has_photo": false },
+    { "name": "Hệ thống trường học công liên cấp", "category": "Giáo dục", "has_photo": false },
+    { "name": "3 tòa chung cư lân cận", "category": "Kết nối cư dân", "has_photo": false, "note": "Tên cụ thể chưa được nêu trên trang nguồn" }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí Shop thương mại BH9B",
+        "description": "Phối cảnh vị trí BH9B trên mặt đường Đại Tây Dương, cửa ngõ ra vào khu đô thị hướng từ Châu Quỳ và đường Lý Thánh Tông",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng dãy shop BH9B",
+        "description": "Mặt bằng tổng thể dãy shop thương mại dịch vụ Biển Hồ 9B",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "BH9B", "floor_label": "Mặt bằng điển hình shop BH9B", "display_order": 1, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,8 @@
+# Offline answer-quality eval only — `python -m eval.deepeval_suite`.
+#
+#     pip install -r requirements-eval.txt
+#
+# Deliberately separate from requirements.txt: the Dockerfile installs that file straight
+# into the production image, nothing under backend/ imports deepeval, and the suite runs on
+# a developer's machine against the real model rather than in the request path or in CI.
+deepeval>=4.1,<5

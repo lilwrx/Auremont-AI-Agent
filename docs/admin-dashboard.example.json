@@ -1,0 +1,50 @@
+{
+  "sales_board": {
+    "generated_at": "2026-08-21T09:30:00Z",
+    "presence_window_minutes": 15,
+    "summary": {
+      "total_sales": 8,
+      "active_accounts": 7,
+      "online_sales": 3,
+      "busy_sales": 2,
+      "waiting_customers": 1,
+      "live_customers": 2
+    },
+    "sales": [
+      {
+        "id": 12,
+        "username": "sale_hanoi_01",
+        "email": "sale01@example.com",
+        "is_active": true,
+        "presence": "busy",
+        "active_chat_sessions": 2,
+        "handled_sessions": 31,
+        "interaction_rate": 87.1,
+        "conversion_rate": null,
+        "last_activity_at": "2026-08-21T09:29:20Z"
+      }
+    ]
+  },
+  "observability": {
+    "tool_reliability": [
+      {
+        "key": "retrieve",
+        "name": "RAG Search",
+        "calls": 340,
+        "errors": 4,
+        "success_rate": 98.8,
+        "average_latency_ms": 184.6
+      }
+    ],
+    "users": { "dau": 56, "mau": 340, "active_sessions": 14, "waiting_sessions": 1 },
+    "tokens": {
+      "input_tokens": 125000,
+      "output_tokens": 48000,
+      "estimated_cost_usd": 0,
+      "projected_monthly_cost_usd": 0,
+      "cost_configured": false,
+      "daily": []
+    }
+  },
+  "notes": "This file documents response shapes only. It is not loaded by the production UI."
+}

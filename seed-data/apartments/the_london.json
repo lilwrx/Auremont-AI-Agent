@@ -1,0 +1,243 @@
+{
+  "project": {
+    "id": "the-london",
+    "name": "The London",
+    "full_name": "The London - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "The Metropolitan",
+    "developer": "Mitsubishi Corporation và Vingroup",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The London là một trong những phân khu căn hộ cuối cùng được triển khai xây dựng và mở bán tại Vinhomes Ocean Park, thiết kế theo kiến trúc London.",
+    "overview": {
+      "towers": [
+        "LD1",
+        "LD2",
+        "LD3"
+      ],
+      "towers_on_sale": [
+        "LD1",
+        "LD2",
+        "LD3"
+      ],
+      "total_units": "hơn 1.750 căn",
+      "unit_types": "Studio, 1 ngủ, 1 ngủ +1, 2 ngủ, 3 ngủ",
+      "area_range": "26,6 – 99,5m²",
+      "floors": "26 – 29 tầng",
+      "handover": "Quý 3/2026",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The London nằm tại phân khu The Metropolitan, phía Đông Bắc giáp đường Hải Đăng 8 và Quảng trường Ga Metro, phía Đông Nam giáp đường nội khu và phân khu The Beverly, phía Tây Nam giáp đường Hải Đăng 5, phía Tây Bắc giáp đường Lý Thánh Tông (tuyến Metro số 08). Dự án nằm trong lòng đại đô thị Vinhomes Ocean Park nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của khu đô thị như hồ Ngọc Trai, Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Đông Bắc: đường Hải Đăng 8, Quảng trường Ga Metro",
+      "Đông Nam: đường nội khu, giáp phân khu The Beverly",
+      "Tây Nam: đường Hải Đăng 5",
+      "Tây Bắc: đường Lý Thánh Tông (tuyến Metro số 08)"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 26.6,
+      "size_max_sqm": 38,
+      "price_min": 1700000000,
+      "price_max": 2200000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ",
+      "size_min_sqm": 37.2,
+      "size_max_sqm": 43.9,
+      "price_min": 2300000000,
+      "price_max": 2700000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ + 1",
+      "size_min_sqm": 47.6,
+      "size_max_sqm": 48.4,
+      "price_min": 2800000000,
+      "price_max": 3200000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ",
+      "size_min_sqm": 56.8,
+      "size_max_sqm": 64.2,
+      "price_min": 3700000000,
+      "price_max": 4100000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ + 1",
+      "size_min_sqm": 76.7,
+      "size_max_sqm": 76.7,
+      "price_min": 4400000000,
+      "price_max": 4700000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ",
+      "size_min_sqm": 81.6,
+      "size_max_sqm": 99.5,
+      "price_min": 5000000000,
+      "price_max": 6500000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 1% khi không nhận bảo lãnh ngân hàng"
+    },
+    {
+      "no": 2,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 3% cho khách hàng tiên phong"
+    },
+    {
+      "no": 3,
+      "type": "Quà tặng",
+      "content": "Quà tặng nội thất tương đương chiết khấu 3%"
+    },
+    {
+      "no": 4,
+      "type": "Thanh toán",
+      "content": "Thanh toán theo 14 đợt, mỗi đợt 3–5%"
+    },
+    {
+      "no": 5,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị căn hộ, lãi suất 0%, ân hạn nợ gốc 24–27 tháng"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Bể bơi Santa Monica",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Sân thể thao",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": false
+    },
+    {
+      "name": "Sân chơi trẻ em",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": false
+    },
+    {
+      "name": "Gym ngoài trời",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": false
+    },
+    {
+      "name": "Công viên",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng tập Gym",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng vui chơi trẻ em",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng giải trí",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng karaoke",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng dance",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 38, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn 1 ngủ", "size_sqm": 43.9, "apartment_type": "1 ngủ", "display_order": 2, "url": null },
+    { "name": "Căn 1 ngủ + 1", "size_sqm": 48.4, "apartment_type": "1 ngủ + 1", "display_order": 3, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 64.2, "apartment_type": "2 ngủ", "display_order": 4, "url": null },
+    { "name": "Căn 2 ngủ + 1", "size_sqm": 76.7, "apartment_type": "2 ngủ + 1", "display_order": 5, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 99.5, "apartment_type": "3 ngủ", "display_order": 6, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The London trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The London trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng The London Vinhomes Ocean Park",
+        "description": "Mặt bằng tổng thể phân khu The London, có đánh số vị trí các tòa và tiện ích",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      {
+        "tower": "LD1",
+        "floor_label": "Mặt bằng tòa LD1",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "tower": "LD2",
+        "floor_label": "Mặt bằng tòa LD2",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "tower": "LD3",
+        "floor_label": "Mặt bằng tòa LD3",
+        "display_order": 3,
+        "url": null
+      }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Bể bơi Santa Monica", "display_order": 1, "url": null },
+      { "name": "Phòng tập Gym", "display_order": 2, "url": null },
+      { "name": "Phòng vui chơi trẻ em", "display_order": 3, "url": null },
+      { "name": "Phòng giải trí", "display_order": 4, "url": null },
+      { "name": "Phòng karaoke", "display_order": 5, "url": null },
+      { "name": "Phòng dance", "display_order": 6, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

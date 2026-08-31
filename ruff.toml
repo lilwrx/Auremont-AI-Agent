@@ -1,0 +1,20 @@
+target-version = "py311"
+line-length = 120
+
+# Alembic-generated migrations are covered by migration tests.
+extend-exclude = ["migrations/versions"]
+
+[lint]
+select = ["E", "F", "I", "N", "W", "UP", "B", "S", "SIM", "RET"]
+ignore = ["E501"]
+
+[lint.per-file-ignores]
+# FastAPI dependencies are intentionally declared as defaults.
+"backend/routers/*.py" = ["B008"]
+"backend/core/deps.py" = ["B008"]
+# Tests intentionally use assertions, test credentials, and local routes.
+"tests/**/*.py" = ["S101", "S105", "S106", "B008"]
+
+[format]
+quote-style = "double"
+indent-style = "space"

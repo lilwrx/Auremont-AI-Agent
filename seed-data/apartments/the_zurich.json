@@ -1,0 +1,169 @@
+{
+  "project": {
+    "id": "the-zurich",
+    "name": "The Zurich",
+    "full_name": "The Zurich - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "The Metropolitan",
+    "developer": "Mitsubishi Corporation và Vingroup",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Zurich là tiểu khu căn hộ đầu tiên thuộc phân khu The Metropolitan Vinhomes Ocean Park được mở bán. Được quy hoạch và xây dựng dựa trên cảm hứng từ “giá trị vô giá của thời gian” với phong cách kiến trúc Thụy Sỹ, căn hộ The Zurich mang vẻ đẹp đầy kiêu hãnh giữa “tâm điểm thượng lưu” cửa ngõ của “Thành phố biển Ocean City”.",
+    "overview": {
+      "towers": ["ZR1", "ZR2", "ZR3"],
+      "towers_on_sale": ["ZR1", "ZR2"],
+      "total_units": "hơn 2.200 căn hộ cao cấp",
+      "unit_types": "Studio, 1 ngủ, 2 ngủ, 3 ngủ",
+      "area_range": "27 – 105m²",
+      "handover": "Tháng 8/2025",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The Zurich nằm tại vị trí cửa ngõ của dự án, kế cận đường Đại Dương, đường Lý Thánh Tông 40m và cao tốc Hà Nội – Hải Phòng. Gần tuyến Metro số 08 và Vinbus. Bên cạnh Công viên Hồ San Hô, gần trường Brighton College, Deway và Vinschool.",
+    "location_highlights": [
+      "Kế cận đường Đại Dương",
+      "Kế cận đường Lý Thánh Tông 40m",
+      "Gần cao tốc Hà Nội – Hải Phòng",
+      "Gần tuyến Metro số 08 và Vinbus",
+      "Bên cạnh Công viên Hồ San Hô",
+      "Gần trường Brighton College, Deway và Vinschool"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 27,
+      "size_max_sqm": 36,
+      "price_min": 1300000000,
+      "price_max": 1700000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ",
+      "size_min_sqm": 41,
+      "size_max_sqm": 48,
+      "price_min": 1400000000,
+      "price_max": 2100000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ",
+      "size_min_sqm": 54,
+      "size_max_sqm": 75,
+      "price_min": 2500000000,
+      "price_max": 3500000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ",
+      "size_min_sqm": 88,
+      "size_max_sqm": 105,
+      "price_min": 4500000000,
+      "price_max": 5500000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Thanh toán",
+      "content": "Thanh toán vốn tự có 50% trong 2 năm, nhận nhà 8/2025, trả 45% còn lại"
+    },
+    {
+      "no": 2,
+      "type": "Thanh toán",
+      "content": "Thanh toán vốn tự có 50% trong 4 năm, nhận nhà 8/2027, trả 45% còn lại"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Vay 45% giá trị căn hộ, lãi suất 0%, ân hạn nợ gốc đến 8/2031"
+    },
+    {
+      "no": 4,
+      "type": "Vay vốn",
+      "content": "Vay 70% giá trị căn hộ, lãi suất 0%, ân hạn nợ gốc đến 2/2027"
+    },
+    {
+      "no": 5,
+      "type": "Quà tặng",
+      "content": "Quà tặng 100 khách hàng đầu tiên tòa ZR2 trị giá 15 tỷ đồng"
+    },
+    {
+      "no": 6,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 0,5% khi không nhận bảo lãnh ngân hàng"
+    }
+  ],
+  "amenities": [
+    { "name": "Tháp đồng hồ Zurich", "category": "Cảnh quan biểu tượng", "has_photo": true },
+    { "name": "Phòng sinh hoạt cộng đồng", "category": "Tiện ích nội khu", "has_photo": true },
+    { "name": "Phòng giải trí", "category": "Tiện ích nội khu", "has_photo": true },
+    { "name": "Khu vui chơi trẻ em", "category": "Tiện ích nội khu", "has_photo": true },
+    { "name": "Phòng tập Gym", "category": "Thể thao & Sức khỏe", "has_photo": true },
+    { "name": "Phòng xông hơi", "category": "Thể thao & Sức khỏe", "has_photo": true },
+    { "name": "Phòng tập Yoga", "category": "Thể thao & Sức khỏe", "has_photo": true },
+    { "name": "Bể bơi Thermal Bath", "category": "Thể thao & Sức khỏe", "has_photo": true },
+    { "name": "Công viên Hồ San Hô", "category": "Cảnh quan lân cận", "has_photo": false }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 36, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn Studio", "size_sqm": 41, "apartment_type": "Studio", "display_order": 2, "url": null },
+    { "name": "Căn 1 ngủ", "size_sqm": 47, "apartment_type": "1 ngủ", "display_order": 3, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 54, "apartment_type": "2 ngủ", "display_order": 4, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 63, "apartment_type": "2 ngủ", "display_order": 5, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 69, "apartment_type": "2 ngủ", "display_order": 6, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 74.3, "apartment_type": "2 ngủ", "display_order": 7, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 80, "apartment_type": "3 ngủ", "display_order": 8, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 105, "apartment_type": "3 ngủ", "display_order": 9, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng tiện ích The Zurich",
+        "description": "Mặt bằng tổng thể tiện ích phân khu The Zurich, có đánh số vị trí tiện ích",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "name": "Tổng mặt bằng The Zurich Vinhomes Ocean Park",
+        "description": "Phối cảnh tổng thể vị trí The Zurich trong khu đô thị",
+        "display_order": 2,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "ZR1", "floor_label": "Mặt bằng tòa ZR1", "display_order": 1, "url": null },
+      { "tower": "ZR2", "floor_label": "Mặt bằng tòa ZR2", "display_order": 2, "url": null },
+      { "tower": "ZR3", "floor_label": "Mặt bằng tòa ZR3", "display_order": 3, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Tháp đồng hồ Zurich", "display_order": 1, "url": null },
+      { "name": "Phòng sinh hoạt cộng đồng", "display_order": 2, "url": null },
+      { "name": "Phòng giải trí", "display_order": 3, "url": null },
+      { "name": "Khu vui chơi trẻ em", "display_order": 4, "url": null },
+      { "name": "Phòng tập Gym", "display_order": 5, "url": null },
+      { "name": "Phòng xông hơi", "display_order": 6, "url": null },
+      { "name": "Phòng tập Yoga", "display_order": 7, "url": null },
+      { "name": "Bể bơi Thermal Bath", "display_order": 8, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "cases": 2,
+  "runs": 2,
+  "passed": 2,
+  "failed": 0,
+  "per_case": {
+    "policy-payment-schedule": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    },
+    "inventory-available-units": {
+      "attempts": 1,
+      "passed": 1,
+      "pass_rate": 1.0,
+      "flaky": false
+    }
+  },
+  "flaky_cases": [],
+  "pass_rate": 1.0,
+  "deterministic_pass_rate": 1.0,
+  "judged_pass_rate": 1.0,
+  "answer_model": "gemini-3.5-flash-lite",
+  "judge_model": "gemini-2.5-flash",
+  "independent_judge": true,
+  "deterministic_metrics": [
+    "Required Facts",
+    "Forbidden Content",
+    "Listing Discipline"
+  ],
+  "metrics": {
+    "Required Facts": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Forbidden Content": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Listing Discipline": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Faithfulness": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Answer Relevancy": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "Answer Correctness [GEval]": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    },
+    "No Invented Figures [GEval]": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "mean_score": 1.0,
+      "examples": []
+    }
+  },
+  "cases_detail": [
+    {
+      "case_id": "policy-payment-schedule",
+      "attempt": 1,
+      "answer": "Dạ, chính sách thanh toán của The Beverly áp dụng theo tiến độ 8 đợt, với đợt 1 giữ chỗ 50 triệu đồng ạ.",
+      "listings": [],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is perfectly faithful to the retrieval context. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the output is perfectly relevant and directly addresses the input without any irrelevant statements. Excellent work!"
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The Actual Output fully aligns with the Expected Output, accurately stating both the \"tiến độ 8 đợt\" and the \"đợt 1 giữ chỗ 50 triệu đồng\" without contradiction. Differences in wording and politeness were disregarded."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "All concrete figures from the Actual Output, specifically \"8 đợt\", \"đợt 1\", and \"50 triệu đồng\", are accurately present, have the exact value, and are correctly attributed within the Retrieval Context. No discrepancies were found."
+        }
+      },
+      "passed": true
+    },
+    {
+      "case_id": "inventory-available-units",
+      "attempt": 1,
+      "answer": "Dạ, em gửi anh/chị căn 2PN đang còn trống với mức giá 3,6 tỷ đồng ạ.",
+      "listings": [
+        {
+          "project_name": "The Beverly",
+          "unit_type": "2PN",
+          "area_range": "68,2 m²",
+          "price_range": "3,6 tỷ đồng",
+          "image_urls": [],
+          "amenities": [],
+          "project_id": null,
+          "unit_code": "OP3-BE1-1205",
+          "status": "còn trống",
+          "tower": "unknown"
+        }
+      ],
+      "verifier_score": 1.0,
+      "verifier_failure_mode": "none",
+      "requires_hitl": true,
+      "metrics": {
+        "Required Facts": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Forbidden Content": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Listing Discipline": {
+          "score": 1.0,
+          "passed": true,
+          "reason": ""
+        },
+        "Faithfulness": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the actual output is perfectly faithful to the retrieval context. Great job!"
+        },
+        "Answer Relevancy": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The score is 1.00 because the output perfectly addresses the input without any irrelevant statements. Excellent job!"
+        },
+        "Answer Correctness [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "The Actual Output successfully includes all factual information from the Expected Output, such as the unit code OP3-BE1-1205, the building The Beverly, the 2-bedroom type, the area 68,2 m², and the price 3,6 tỷ đồng, and the status \"còn trống\". No facts are contradicted, and differences in phrasing and formatting are disregarded per the evaluation steps."
+        },
+        "No Invented Figures [GEval]": {
+          "score": 1.0,
+          "passed": true,
+          "reason": "All concrete figures from the Actual Output, including the unit type '2PN', price '3,6 tỷ đồng' (3.6 billion VND), area '68,2 m²', project 'The Beverly', and unit code 'OP3-BE1-1205', are accurately present and correctly attributed in the Retrieval Context, demonstrating strong alignment with the evaluation steps."
+        }
+      },
+      "passed": true
+    }
+  ],
+  "complete": false
+}

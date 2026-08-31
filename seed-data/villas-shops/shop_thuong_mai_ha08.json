@@ -1,0 +1,124 @@
+{
+  "project": {
+    "id": "shop-thuong-mai-ha08",
+    "name": "Shop thương mại HA08",
+    "full_name": "Shop thương mại dịch vụ Hải Âu 08 (HA08) - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "Hải Âu",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "HA08 là dãy shop thương mại dịch vụ nằm tại trung tâm phân khu Hải Âu, thuộc quy hoạch shophouse - liền kề và biệt thự được phép kinh doanh của phân khu này.",
+    "overview": {
+      "product_type": "Shop thương mại dịch vụ",
+      "total_units": 44,
+      "storeys": "4 tầng nổi + 1 tum",
+      "land_area_range": "88 – 232,8m²",
+      "construction_area_range": "53,1 – 56,6m²",
+      "total_floor_area_range": "194,1 – 206,9m²",
+      "handover": "Nhận nhà ngay (bàn giao thô)",
+      "ownership": "Sở hữu 50 năm, làm ngay sổ hồng"
+    },
+    "location_description": "HA08 nằm tại trung tâm phân khu Hải Âu, mặt đường 30m mới hoàn thiện kết nối với khu dân cư và khu làng nghề sản xuất xã Kiêu Kỵ, Gia Lâm và khu công nghiệp Tân Quang, xã Tân Quang, Văn Lâm, Hưng Yên. Gần công viên cây xanh nội khu và nhà để xe.",
+    "location_highlights": [
+      "Trung tâm phân khu Hải Âu",
+      "Mặt đường 30m mới hoàn thiện",
+      "Kết nối khu làng nghề sản xuất xã Kiêu Kỵ, Gia Lâm",
+      "Kết nối khu công nghiệp Tân Quang, Văn Lâm, Hưng Yên",
+      "Gần công viên cây xanh nội khu"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shop thương mại dịch vụ",
+      "size_min_sqm": 88,
+      "size_max_sqm": 232.8,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Shop thương mại dịch vụ HA08, diện tích đất 88-232,8m², diện tích xây dựng 53,1-56,6m², tổng sàn xây dựng 194,1-206,9m²",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm 100%: chiết khấu 7,5% giá bán"
+    },
+    {
+      "no": 2,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị, lãi suất 0%, ân hạn nợ gốc và không phạt trả nợ trước hạn trong 36 tháng"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Sau thời gian hỗ trợ: đảm bảo lãi suất 9%/năm trong 2 năm tiếp theo"
+    },
+    {
+      "no": 4,
+      "type": "Quà tặng",
+      "content": "Gói hoàn thiện trị giá 500 triệu đồng, trừ trực tiếp vào giá bán"
+    },
+    {
+      "no": 5,
+      "type": "Quà tặng",
+      "content": "Tặng miễn phí phí dịch vụ 60 tháng"
+    },
+    {
+      "no": 6,
+      "type": "Quà tặng",
+      "content": "Hỗ trợ tiền thuê tương đương chiết khấu 2% giá bán"
+    },
+    {
+      "no": 7,
+      "type": "Quà tặng",
+      "content": "Voucher Vinmec trị giá 100 triệu đồng"
+    }
+  ],
+  "amenities": [
+    { "name": "Đường 30m mới hoàn thiện", "category": "Giao thông", "has_photo": false },
+    { "name": "Công viên cây xanh nội khu", "category": "Cảnh quan", "has_photo": false },
+    { "name": "Nhà để xe", "category": "Tiện ích nội khu", "has_photo": false },
+    { "name": "Khu làng nghề sản xuất xã Kiêu Kỵ, Gia Lâm", "category": "Kết nối vùng lân cận", "has_photo": false },
+    { "name": "Khu công nghiệp Tân Quang, Văn Lâm, Hưng Yên", "category": "Kết nối vùng lân cận", "has_photo": false }
+  ],
+  "business_conditions": {
+    "description": "Phân khu Hải Âu quy hoạch 100% shophouse - các căn liền kề và biệt thự đều được phép kinh doanh, tạo lợi thế đa dạng cho các cửa hàng dịch vụ."
+  },
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí Shop thương mại HA08",
+        "description": "Phối cảnh vị trí HA08 tại trung tâm phân khu Hải Âu, mặt đường 30m kết nối khu làng nghề Kiêu Kỵ và khu công nghiệp Tân Quang",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng dãy shop HA08",
+        "description": "Mặt bằng tổng thể dãy shop thương mại dịch vụ Hải Âu 08",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "HA08", "floor_label": "Mặt bằng điển hình shop HA08", "display_order": 1, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

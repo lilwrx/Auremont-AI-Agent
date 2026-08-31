@@ -1,0 +1,260 @@
+/* ══════════════════════════════════════════════════════════
+   AUREMONT AVATAR — AuremontAvatar.tsx
+   Custom character built from 5 separately-extracted, real-alpha PNGs (head/torso/left
+   arm/right arm/legs — see public/avatar/) instead of one flat image, so each part can
+   rotate INDEPENDENTLY per emotion around its own pivot. Position/size below is each part's
+   bounding box as a % of the shared composed-character bbox (670.8×1082.27), computed once
+   from the source extraction and fixed here; transform-origin on each arm is its exact
+   shoulder pivot as a % of *that arm's own* box, so rotation swings naturally from the
+   shoulder instead of the image's center. Legs are one static (non-animated) piece — the
+   source render only gave a single frontal pose for them, unlike the arms/head. The head
+   has a fixed baked-in smile (no separate mouth/brow art), so "regretful" is conveyed
+   entirely through body language (droop/tilt) rather than a face change.
+   ══════════════════════════════════════════════════════════ */
+
+.aura-avatar {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  user-select: none;
+}
+
+.aura-avatar .aura-part {
+  position: absolute;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+.aura-avatar .aura-legs {
+  left: 14.11%;
+  top: 70.36%;
+  width: 71.79%;
+  height: 29.63%;
+  z-index: 0;
+}
+
+.aura-avatar .aura-torso {
+  left: 20.18%;
+  top: 38.03%;
+  width: 59.63%;
+  height: 35.11%;
+  z-index: 1;
+  transform-origin: 50% 100%;
+}
+
+/* arm_left.png is a true horizontal mirror of arm_right.png (same source render, flipped —
+   the source sheet only provided two near-duplicate, same-handed arm crops, which is why an
+   earlier version of this file positioned/rotated arm_left as if it were its own independent
+   piece and it read as anatomically backwards). Its pivot is therefore the mirror of
+   arm_right's own pivot, and the two rotate with opposite-signed angles for a symmetric pose
+   (see the keyframes below) rather than independently-tuned ones. */
+.aura-avatar .aura-arm-left {
+  left: 4.27%;
+  top: 45.81%;
+  width: 24.88%;
+  height: 22.1%;
+  z-index: 2;
+  transform-origin: 81.93% 8.7%;
+}
+
+.aura-avatar .aura-arm-right {
+  left: 70.85%;
+  top: 45.81%;
+  width: 24.88%;
+  height: 22.1%;
+  z-index: 2;
+  transform-origin: 18.07% 8.7%;
+}
+
+/* Open-palm wave pose for the left arm (its own source render, see arm_wave.png) — sits at
+   the same shoulder pivot as aura-arm-left but reaches up instead of hanging down, so it
+   can only ever be shown by crossfading with aura-arm-left, never rotated into place like
+   the other emotion poses. Hidden by default; only "greeting" animates it in. */
+.aura-avatar .aura-arm-wave {
+  left: -37.68%;
+  top: 17.57%;
+  width: 67.39%;
+  height: 34.28%;
+  z-index: 2;
+  transform-origin: 92.52% 87.98%;
+  opacity: 0;
+}
+
+.aura-avatar .aura-head {
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 41.68%;
+  z-index: 3;
+  transform-origin: 50% 100%;
+}
+
+/* "face" variant (AuremontAvatar variant="face") — just head.png, filling the container
+   instead of sitting at its small % within the full-body layout above. Small icon slots
+   (launcher button, topbar icon, per-message avatar) use this instead of the full body. */
+.aura-avatar--face .aura-head {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── idle — the resting loop whenever no other emotion is active ── */
+.aura-avatar--idle .aura-torso {
+  animation: aura-breathe 3.2s ease-in-out infinite;
+}
+.aura-avatar--idle .aura-head {
+  animation: aura-idle-sway 4.6s ease-in-out infinite;
+}
+
+/* ── greeting — onboarding wave (Kịch bản 1): raise into the open-palm wave pose, wiggle it
+   side to side a few times, then lower back to the resting arm naturally — a pose SWAP
+   (crossfade), not a rotation, since the resting arm's hand isn't shaped for waving. Plays
+   once. ── */
+.aura-avatar--greeting .aura-arm-left {
+  animation: aura-wave-arm-hide 2.4s ease-in-out 1;
+}
+.aura-avatar--greeting .aura-arm-wave {
+  animation: aura-wave-arm-show 2.4s ease-in-out 1;
+}
+.aura-avatar--greeting .aura-head {
+  animation: aura-nod-once 1.1s ease-out;
+}
+
+/* ── thinking — "để em kiểm tra hệ thống..." (Kịch bản 3, chờ API) ── */
+.aura-avatar--thinking .aura-head {
+  animation: aura-tilt-hold 0.5s ease-out forwards;
+}
+.aura-avatar--thinking .aura-arm-right {
+  animation: aura-chin-tap 1.5s ease-in-out infinite;
+}
+
+/* ── happy — tìm thấy tồn kho, câu trả lời tốt (Kịch bản 2 & 3) ── */
+.aura-avatar--happy .aura-torso,
+.aura-avatar--happy .aura-head {
+  animation: aura-bounce 0.55s ease-in-out 2;
+}
+.aura-avatar--happy .aura-arm-left {
+  animation: aura-cheer-left 0.55s ease-in-out 2;
+}
+.aura-avatar--happy .aura-arm-right {
+  animation: aura-cheer-right 0.55s ease-in-out 2;
+}
+
+/* ── regretful — hết hàng / không đủ thông tin (Kịch bản 3, nhánh xấu).
+   No separate "sad" face art, so this leans entirely on a head droop/tilt + a small slump. ── */
+.aura-avatar--regretful .aura-head {
+  animation: aura-tilt-down 0.5s ease-out forwards;
+}
+.aura-avatar--regretful .aura-torso {
+  animation: aura-slump 0.5s ease-out forwards;
+}
+
+/* ── respectful — chuyển giao Sale, xin thông tin khéo léo (Kịch bản 4 & 5) ── */
+.aura-avatar--respectful .aura-arm-left {
+  animation: aura-hand-to-chest 0.7s ease-out forwards;
+}
+.aura-avatar--respectful .aura-head {
+  animation: aura-bow 0.7s ease-out forwards;
+}
+.aura-avatar--respectful .aura-torso {
+  animation: aura-bow-torso 0.7s ease-out forwards;
+}
+
+/* ── keyframes ── */
+
+@keyframes aura-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.018); }
+}
+
+@keyframes aura-idle-sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-2deg); }
+}
+
+/* The resting left arm fades out as the wave pose fades in (8-15%), holds hidden while it
+   waves, then fades back — with a small overshoot (90%) so it reads as dropping into place
+   rather than just popping back. */
+@keyframes aura-wave-arm-hide {
+  0%, 8% { opacity: 1; transform: rotate(0deg); }
+  15%, 85% { opacity: 0; transform: rotate(0deg); }
+  90% { opacity: 1; transform: rotate(-10deg); }
+  100% { opacity: 1; transform: rotate(0deg); }
+}
+
+@keyframes aura-wave-arm-show {
+  0%, 8% { opacity: 0; transform: rotate(0deg); }
+  15% { opacity: 1; transform: rotate(-8deg); }
+  30% { transform: rotate(8deg); }
+  45% { transform: rotate(-8deg); }
+  60% { transform: rotate(8deg); }
+  75% { transform: rotate(-8deg); }
+  85% { opacity: 1; transform: rotate(0deg); }
+  92%, 100% { opacity: 0; transform: rotate(0deg); }
+}
+
+@keyframes aura-nod-once {
+  0% { transform: rotate(0deg); }
+  35% { transform: rotate(-5deg); }
+  65% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes aura-tilt-hold {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-8deg); }
+}
+
+@keyframes aura-chin-tap {
+  0%, 100% { transform: rotate(-100deg); }
+  50% { transform: rotate(-108deg); }
+}
+
+@keyframes aura-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4%); }
+}
+
+@keyframes aura-cheer-left {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(60deg); }
+}
+
+@keyframes aura-cheer-right {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-60deg); }
+}
+
+@keyframes aura-tilt-down {
+  from { transform: translateY(0) rotate(0deg); }
+  to { transform: translateY(3%) rotate(8deg); }
+}
+
+@keyframes aura-slump {
+  from { transform: translateY(0); }
+  to { transform: translateY(1.5%); }
+}
+
+@keyframes aura-hand-to-chest {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(110deg); }
+}
+
+@keyframes aura-bow {
+  from { transform: translateY(0) rotate(0deg); }
+  to { transform: translateY(2%) rotate(5deg); }
+}
+
+@keyframes aura-bow-torso {
+  from { transform: translateY(0); }
+  to { transform: translateY(1%); }
+}
+
+/* Respect reduced-motion preferences — the character stays in its resting pose, still
+   recognisable and on-brand, just without the loops/gestures. */
+@media (prefers-reduced-motion: reduce) {
+  .aura-avatar .aura-part {
+    animation: none !important;
+  }
+}

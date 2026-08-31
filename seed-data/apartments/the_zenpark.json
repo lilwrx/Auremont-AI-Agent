@@ -1,0 +1,234 @@
+{
+  "project": {
+    "id": "the-zenpark",
+    "name": "The Zenpark",
+    "full_name": "The Zenpark - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Zenpark là khu căn hộ cao cấp bậc nhất tại Quận Ocean, Vinhomes Ocean Park, đã bàn giao và nhận nhà ngay.",
+    "overview": {
+      "towers": [
+        "R1.01",
+        "R1.02",
+        "R1.03",
+        "R1.05"
+      ],
+      "towers_on_sale": [
+        "R1.01",
+        "R1.02",
+        "R1.03",
+        "R1.05"
+      ],
+      "total_units": "hơn 2.500 căn hộ cao cấp",
+      "unit_types": "Studio, 1 ngủ, 1 ngủ+1, 2 ngủ, 2 ngủ+1, 3 ngủ, 3 ngủ+1",
+      "area_range": "27 – 100,6m²",
+      "handover": "Nhận nhà ngay",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The Zenpark tọa lạc tại Quận Ocean, phân khu trung tâm của đại đô thị Vinhomes Ocean Park, sở hữu vị trí kết nối thuận tiện: kế cận trục đường Lý Thánh Tông, gần cao tốc Hà Nội – Hải Phòng giúp di chuyển nhanh chóng vào nội đô Hà Nội và các tỉnh lân cận, liền kề khu biệt thự Ngọc Trai. Dự án nằm trong lòng đại đô thị nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của Vinhomes Ocean Park như hồ nước, công viên, trường học, bệnh viện, trung tâm thương mại Vincom.",
+    "location_highlights": [
+      "Kế cận đường Lý Thánh Tông",
+      "Gần cao tốc Hà Nội – Hải Phòng",
+      "Liền kề biệt thự khu Ngọc Trai"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 27,
+      "size_max_sqm": 30,
+      "price_min": 1200000000,
+      "price_max": 1600000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ",
+      "size_min_sqm": 41,
+      "size_max_sqm": 45,
+      "price_min": 1700000000,
+      "price_max": 2300000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ + 1",
+      "size_min_sqm": 47,
+      "size_max_sqm": 52,
+      "price_min": 2000000000,
+      "price_max": 2500000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ",
+      "size_min_sqm": 64,
+      "size_max_sqm": 70,
+      "price_min": 3000000000,
+      "price_max": 3500000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ + 1",
+      "size_min_sqm": 74,
+      "size_max_sqm": 77,
+      "price_min": 3500000000,
+      "price_max": 4300000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ",
+      "size_min_sqm": 76,
+      "size_max_sqm": 82,
+      "price_min": 3500000000,
+      "price_max": 4800000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ + 1",
+      "size_min_sqm": 88,
+      "size_max_sqm": 100.6,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ cộng",
+      "price_note": "Đã bán hết"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Quà tặng",
+      "content": "Tặng 2 năm phí để xe ô tô"
+    },
+    {
+      "no": 2,
+      "type": "Quà tặng",
+      "content": "Quà tặng ban công xanh trị giá 30 triệu đồng"
+    },
+    {
+      "no": 3,
+      "type": "Quà tặng",
+      "content": "Voucher lên tới 50% dịch vụ Vingroup"
+    },
+    {
+      "no": 4,
+      "type": "Chiết khấu",
+      "content": "Thanh toán linh hoạt, chiết khấu lên tới 16,5% khi thanh toán sớm"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Vườn Nhật",
+      "category": "Cảnh quan",
+      "size": "6.208 m²",
+      "has_photo": true
+    },
+    {
+      "name": "Bể bơi Olympic 4 mùa",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    },
+    {
+      "name": "Nhà để xe 5 tầng",
+      "category": "Tiện ích nội khu",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng Gym",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    },
+    {
+      "name": "Sân thể thao",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    },
+    {
+      "name": "Khu vui chơi trẻ em",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 30, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn 1 ngủ", "size_sqm": 45, "apartment_type": "1 ngủ", "display_order": 2, "url": null },
+    { "name": "Căn 1 ngủ + 1", "size_sqm": 52, "apartment_type": "1 ngủ + 1", "display_order": 3, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 70, "apartment_type": "2 ngủ", "display_order": 4, "url": null },
+    { "name": "Căn 2 ngủ + 1", "size_sqm": 77, "apartment_type": "2 ngủ + 1", "display_order": 5, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 82, "apartment_type": "3 ngủ", "display_order": 6, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The Zenpark trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The Zenpark trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng The Zenpark - Vinhomes Ocean Park",
+        "description": "Mặt bằng tổng thể phân khu The Zenpark, có đánh số vị trí các tòa và tiện ích",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      {
+        "tower": "R1.01",
+        "floor_label": "Mặt bằng tòa R1.01",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "tower": "R1.02",
+        "floor_label": "Mặt bằng tòa R1.02",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "tower": "R1.03",
+        "floor_label": "Mặt bằng tòa R1.03",
+        "display_order": 3,
+        "url": null
+      },
+      {
+        "tower": "R1.05",
+        "floor_label": "Mặt bằng tòa R1.05",
+        "display_order": 4,
+        "url": null
+      }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Vườn Nhật", "display_order": 1, "url": null },
+      { "name": "Bể bơi Olympic 4 mùa", "display_order": 2, "url": null },
+      { "name": "Phòng Gym", "display_order": 3, "url": null },
+      { "name": "Sân thể thao", "display_order": 4, "url": null },
+      { "name": "Khu vui chơi trẻ em", "display_order": 5, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "project": {
+    "id": "the-senique-hanoi",
+    "name": "The Senique Hanoi",
+    "full_name": "The Senique Hanoi - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Công ty Cổ phần đầu tư phát triển kinh doanh Bình Minh (thành viên CapitaLand Development)",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park",
+      "area_hectares": 2.2
+    },
+    "description": "The Senique Hanoi là khu căn hộ cao cấp tọa lạc tại vị trí trung tâm Vinhomes Ocean Park, dự án đầu tiên theo mô hình Compound (khu khép kín) tại Ocean Park.",
+    "overview": {
+      "towers": [
+        "The Senique 1",
+        "The Senique 2",
+        "The Senique Premier"
+      ],
+      "towers_on_sale": [
+        "The Senique 1",
+        "The Senique 2",
+        "The Senique Premier"
+      ],
+      "total_units": 2152,
+      "unit_types": "1BR, 2BR, 3BR, 4BR, Duplex, Penthouse",
+      "floors": 37,
+      "handover": "Quý 2/2027",
+      "ownership": "Sở hữu không thời hạn",
+      "starting_price_per_sqm": "68 triệu đồng/m²"
+    },
+    "location_description": "The Senique Hanoi tọa lạc tại vị trí trung tâm Vinhomes Ocean Park, kế cận đường Đại Tây Dương rộng 40m, gần tuyến Metro số 08 và cao tốc đi Hải Phòng, được bao quanh bởi trường học, khu bán lẻ và hồ nước với tầm nhìn 4 hướng. Dự án nằm trong lòng đại đô thị Vinhomes Ocean Park nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của khu đô thị như hồ Ngọc Trai, Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học Vinschool, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Kế cận đường Đại Tây Dương rộng 40m",
+      "Gần tuyến Metro số 08",
+      "Gần cao tốc đi Hải Phòng",
+      "Bao quanh bởi trường học, khu bán lẻ và hồ nước, tầm nhìn 4 hướng"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "1BR",
+      "size_min_sqm": 42,
+      "size_max_sqm": 42,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ",
+      "price_note": "Đang cập nhật"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2BR",
+      "size_min_sqm": 54,
+      "size_max_sqm": 81,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ",
+      "price_note": "Đang cập nhật"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3BR",
+      "size_min_sqm": 83,
+      "size_max_sqm": 108,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ",
+      "price_note": "Đang cập nhật"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "4BR",
+      "size_min_sqm": 154,
+      "size_max_sqm": 188,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 4 phòng ngủ",
+      "price_note": "Đang cập nhật"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Duplex",
+      "size_min_sqm": 118,
+      "size_max_sqm": 190,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ thông tầng",
+      "price_note": "Đang cập nhật"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Penthouse",
+      "size_min_sqm": 352,
+      "size_max_sqm": 432,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ penthouse",
+      "price_note": "Đang cập nhật"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay ngân hàng, chiết khấu khoảng 9%, lãi suất 0% cho 30% giá trị căn hộ đến khi bàn giao"
+    },
+    {
+      "no": 2,
+      "type": "Thanh toán",
+      "content": "Thanh toán tiêu chuẩn: chiết khấu khoảng 11%"
+    },
+    {
+      "no": 3,
+      "type": "Thanh toán",
+      "content": "Thanh toán nhanh: chiết khấu khoảng 12%"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Bể bơi 50m",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": true
+    },
+    {
+      "name": "Jacuzzi",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": false
+    },
+    {
+      "name": "Vườn BBQ",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng Gym",
+      "category": "Thể thao & Sức khỏe",
+      "has_photo": false
+    },
+    {
+      "name": "Sân Golf 3D",
+      "category": "Tiện ích trong nhà",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng Party",
+      "category": "Tiện ích trong nhà",
+      "has_photo": false
+    },
+    {
+      "name": "Không gian Co-working",
+      "category": "Tiện ích trong nhà",
+      "has_photo": false
+    },
+    {
+      "name": "Cổng an ninh giám sát 24/7",
+      "category": "An toàn & Bảo an",
+      "has_photo": true
+    }
+  ],
+  "amenities_summary": "60 tiện ích độc bản gồm 26 tiện ích ngoài trời và 34 tiện ích trong nhà",
+  "unit_layouts": [
+    { "name": "Căn 1BR", "size_sqm": 42, "apartment_type": "1BR", "display_order": 1, "url": null },
+    { "name": "Căn 2BR", "size_sqm": 53.5, "apartment_type": "2BR", "display_order": 2, "url": null },
+    { "name": "Căn 2BR", "size_sqm": 54.4, "apartment_type": "2BR", "display_order": 3, "url": null },
+    { "name": "Căn 2BR", "size_sqm": 64.3, "apartment_type": "2BR", "display_order": 4, "url": null },
+    { "name": "Căn 2BR", "size_sqm": 81.3, "apartment_type": "2BR", "display_order": 5, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 83.2, "apartment_type": "3BR", "display_order": 6, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 84.9, "apartment_type": "3BR", "display_order": 7, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 85.9, "apartment_type": "3BR", "display_order": 8, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 96.8, "apartment_type": "3BR", "display_order": 9, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 97.3, "apartment_type": "3BR", "display_order": 10, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 101.5, "apartment_type": "3BR", "display_order": 11, "url": null },
+    { "name": "Căn 3BR", "size_sqm": 107.5, "apartment_type": "3BR", "display_order": 12, "url": null },
+    { "name": "Căn 4BR", "size_sqm": 153.6, "apartment_type": "4BR", "display_order": 13, "url": null },
+    { "name": "Căn 4BR", "size_sqm": 177.5, "apartment_type": "4BR", "display_order": 14, "url": null },
+    { "name": "Căn 4BR", "size_sqm": 187.4, "apartment_type": "4BR", "display_order": 15, "url": null },
+    { "name": "Căn Duplex", "size_sqm": 117.5, "apartment_type": "Duplex", "display_order": 16, "url": null, "note": "Thông tầng, diện tích 117,5 – 189,5m²" },
+    { "name": "Căn Penthouse", "size_sqm": 432, "apartment_type": "Penthouse", "display_order": 17, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The Senique Hanoi trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The Senique Hanoi trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng The Senique Hanoi - Phân tầng",
+        "description": "Mặt bằng tổng thể phân khu The Senique Hanoi, phân tầng 2, 4, 6, 8, 10, 12, 14, 16, 18",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "The Senique 1", "floor_label": "Tầng 2, 4, 6, 8, 10, 12, 14, 16, 18", "display_order": 1, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 3, 5, 7, 9, 11, 13, 15, 17, 19", "display_order": 2, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 20", "display_order": 3, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 21, 23", "display_order": 4, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 22", "display_order": 5, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 24, 26, 28, 30, 32, 34", "display_order": 6, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 25, 27, 29, 31, 33, 35", "display_order": 7, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 36", "display_order": 8, "url": null },
+      { "tower": "The Senique 1", "floor_label": "Tầng 37", "display_order": 9, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 2, 4, 6, 8, 10, 12, 14, 16, 18", "display_order": 1, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 3, 5, 7, 9, 11, 13, 15, 17, 19", "display_order": 2, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 20", "display_order": 3, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 21, 23", "display_order": 4, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 22", "display_order": 5, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 24, 26, 28, 30, 32, 34", "display_order": 6, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 25, 27, 29, 31, 33, 35", "display_order": 7, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 36", "display_order": 8, "url": null },
+      { "tower": "The Senique 2", "floor_label": "Tầng 37", "display_order": 9, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 2, 4, 6, 8, 10, 12, 14, 16, 18", "display_order": 1, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 3, 5, 7, 9, 11, 13, 15, 17, 19", "display_order": 2, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 21", "display_order": 3, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 22, 24, 26, 28, 30, 32, 34", "display_order": 4, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 23, 25, 27, 29, 31, 33, 35", "display_order": 5, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 36", "display_order": 6, "url": null },
+      { "tower": "The Senique Premier", "floor_label": "Tầng 37", "display_order": 7, "url": null }
+    ],
+    "interior": [
+      {
+        "name": "Thiết kế căn hộ The Senique Hanoi",
+        "description": "Nội thất bàn giao căn hộ mẫu The Senique Hanoi",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "amenity_photos": [
+      { "name": "Cổng an ninh", "display_order": 1, "url": null },
+      { "name": "Sảnh tòa The Senique 1", "display_order": 2, "url": null },
+      { "name": "Sảnh tòa The Senique 2", "display_order": 3, "url": null },
+      { "name": "Bể bơi 50m", "display_order": 4, "url": null },
+      { "name": "Bể bơi trượt nước trẻ em", "display_order": 5, "url": null },
+      { "name": "Cảnh quan nội khu", "display_order": 6, "url": null },
+      { "name": "Tổng quan tiện ích", "display_order": 7, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

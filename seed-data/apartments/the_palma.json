@@ -1,0 +1,206 @@
+{
+  "project": {
+    "id": "the-palma",
+    "name": "The Palma",
+    "full_name": "The Palma - Lumière Orient Pearl",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Masterise Homes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Palma là phân khu căn hộ được chủ đầu tư Masterise Homes ra mắt đầu tiên tại dự án Lumière Orient Pearl. Thiết kế lấy cảm hứng từ sự riêng tư và tĩnh tại, kiến trúc gợi hình tàu lá cọ soi bóng trên mặt nước.",
+    "overview": {
+      "scale": "02 tòa tháp căn hộ (~1.140 căn)",
+      "towers": 2,
+      "total_units": 1140,
+      "floors": 30,
+      "unit_types": "Studio, 1PN, 1PN+, 2PN, 2PN+, 3PN, Duplex, Penthouse",
+      "area_range": "28,6 – 93,9m²",
+      "amenity_floors": "Tầng 1 và tầng 13",
+      "handover": "Quý 3/2027",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_sides": [
+      "Phía Tây Nam: kế cận đường Biển Hồ",
+      "Phía Tây Bắc: đường Biển Hồ 2, hướng sang phân khu The Zenpark",
+      "Phía Đông Bắc: tiếp giáp công viên Foresta",
+      "Phía Đông Nam: kế cận đường Biển Hồ 1"
+    ],
+    "handover_standard": "Hoàn thiện liền tường cao cấp, thiết bị nhập khẩu từ các thương hiệu hàng đầu thế giới.",
+    "amenities_summary": "86 tiện ích trong nhà và ngoài trời dành riêng cho cư dân."
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 28.6,
+      "size_max_sqm": 31.6,
+      "price_min": 3000000000,
+      "price_max": 3900000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1PN",
+      "size_min_sqm": 39.3,
+      "size_max_sqm": 41.3,
+      "price_min": 4000000000,
+      "price_max": 4900000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1PN+",
+      "size_min_sqm": 46.1,
+      "size_max_sqm": 47.2,
+      "price_min": 4300000000,
+      "price_max": 5800000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2PN",
+      "size_min_sqm": 58.8,
+      "size_max_sqm": 63.3,
+      "price_min": 5700000000,
+      "price_max": 7200000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2PN+",
+      "size_min_sqm": 63.5,
+      "size_max_sqm": 69.2,
+      "price_min": 6500000000,
+      "price_max": 7900000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3PN",
+      "size_min_sqm": 78.5,
+      "size_max_sqm": 89.2,
+      "price_min": 8700000000,
+      "price_max": 11200000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3PN (thang máy)",
+      "size_min_sqm": 92.5,
+      "size_max_sqm": 93.9,
+      "price_min": 10400000000,
+      "price_max": 12300000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ có thang máy riêng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Duplex",
+      "size_min_sqm": 171,
+      "size_max_sqm": 186.1,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "price_note": "Liên hệ",
+      "description": "Căn hộ thông tầng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Penthouse",
+      "size_min_sqm": null,
+      "size_max_sqm": null,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "price_note": "Liên hệ",
+      "size_note": "Đang cập nhật",
+      "description": "Căn hộ penthouse"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Penthouse Duplex",
+      "size_min_sqm": null,
+      "size_max_sqm": null,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "price_note": "Liên hệ",
+      "size_note": "Đang cập nhật",
+      "description": "Căn hộ penthouse thông tầng"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "cong-vien-foresta",
+      "name": "Công viên Foresta",
+      "category": "Cảnh quan",
+      "description": "Công viên tiếp giáp phía Đông Bắc phân khu"
+    },
+    {
+      "id": "ho-ngoc-trai",
+      "name": "Hồ Ngọc Trai",
+      "category": "Cảnh quan",
+      "description": "Hồ điều tiết 24,5 hecta của Vinhomes Ocean Park",
+      "size": "24.5 hectares"
+    },
+    {
+      "id": "crystal-lagoon",
+      "name": "Biển hồ Crystal Lagoon",
+      "category": "Cảnh quan",
+      "description": "Biển nhân tạo nước mặn trong khu đô thị"
+    },
+    {
+      "id": "tang-tien-ich-1",
+      "name": "Tầng tiện ích 1",
+      "category": "Tiện ích nội khu",
+      "description": "Tầng tiện ích nội khu của tòa tháp"
+    },
+    {
+      "id": "tang-tien-ich-13",
+      "name": "Tầng tiện ích 13",
+      "category": "Tiện ích nội khu",
+      "description": "Tầng tiện ích nội khu trên cao của tòa tháp"
+    }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [],
+    "master_plan": [],
+    "floor_plans": [
+      { "tower": "The Palma 1", "floor_label": "Tầng 2", "display_order": 1, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 3-5", "display_order": 2, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 6-17", "display_order": 3, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 18-21", "display_order": 4, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 22/24/26/28", "display_order": 5, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 23/25/27", "display_order": 6, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 29", "display_order": 7, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Tầng 30", "display_order": 8, "url": null },
+      { "tower": "The Palma 1", "floor_label": "Mặt bằng điển hình", "display_order": 9, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 2", "display_order": 1, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 3-5", "display_order": 2, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 6-18", "display_order": 3, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 19-21", "display_order": 4, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 22/24/26/28", "display_order": 5, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 23/25/27", "display_order": 6, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 29", "display_order": 7, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Tầng 30", "display_order": 8, "url": null },
+      { "tower": "The Palma 2", "floor_label": "Mặt bằng điển hình", "display_order": 9, "url": null }
+    ],
+    "interior": [],
+    "amenity_map": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

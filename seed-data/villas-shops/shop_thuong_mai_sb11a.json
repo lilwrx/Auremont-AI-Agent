@@ -1,0 +1,123 @@
+{
+  "project": {
+    "id": "shop-thuong-mai-sb11a",
+    "name": "Shop thương mại SB11A",
+    "full_name": "Shop thương mại dịch vụ Sao Biển 11A (SB11A) - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "Sao Biển",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "SB11A là dãy shop thương mại dịch vụ nằm trong phân khu biệt thự Sao Biển, tọa lạc tại điểm giao giữa đường Sao Biển rộng 30m dẫn thẳng ra TTTM Vincom và đường Sao Biển 11 rộng 20m, phục vụ lượng lớn cư dân hiện hữu của phân khu.",
+    "overview": {
+      "product_type": "Shop thương mại dịch vụ",
+      "total_units": 34,
+      "storeys": "4 tầng nổi + 1 tum",
+      "land_area_range": "99 – 164,6m²",
+      "construction_area_range": "59 – 69,5m²",
+      "total_floor_area_range": "209,6 – 243,2m²",
+      "handover": "Nhận nhà ngay",
+      "ownership": "Sở hữu 50 năm, làm ngay sổ hồng"
+    },
+    "location_description": "SB11A tọa lạc tại điểm giao giữa đường Sao Biển rộng 30m dẫn thẳng ra Trung tâm thương mại Vincom Mega Mall và đường Sao Biển 11 rộng 20m, thuộc phân khu biệt thự Sao Biển. Kế cận Hồ Ngọc Trai 24,5ha và biển nhân tạo, phục vụ lượng lớn cư dân hiện hữu của phân khu.",
+    "location_highlights": [
+      "Điểm giao đường Sao Biển (30m) và đường Sao Biển 11 (20m)",
+      "Đường Sao Biển dẫn thẳng ra TTTM Vincom Mega Mall",
+      "Kế cận Hồ Ngọc Trai 24,5ha",
+      "Kế cận biển nhân tạo"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shop thương mại dịch vụ",
+      "size_min_sqm": 99,
+      "size_max_sqm": 164.6,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Shop thương mại dịch vụ SB11A, diện tích đất 99-164,6m², diện tích xây dựng 59-69,5m², tổng sàn xây dựng 209,6-243,2m²",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm 100%: chiết khấu 7,5% giá bán"
+    },
+    {
+      "no": 2,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị, lãi suất 0%, ân hạn nợ gốc và không phạt trả nợ trước hạn trong 36 tháng"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Sau thời gian hỗ trợ: đảm bảo lãi suất 9%/năm trong 2 năm tiếp theo"
+    },
+    {
+      "no": 4,
+      "type": "Quà tặng",
+      "content": "Gói hoàn thiện trị giá 500 triệu đồng, trừ trực tiếp vào giá bán"
+    },
+    {
+      "no": 5,
+      "type": "Quà tặng",
+      "content": "Tặng miễn phí phí dịch vụ 60 tháng"
+    },
+    {
+      "no": 6,
+      "type": "Quà tặng",
+      "content": "Hỗ trợ tiền thuê tương đương chiết khấu 2% giá bán"
+    },
+    {
+      "no": 7,
+      "type": "Quà tặng",
+      "content": "Voucher Vinmec trị giá 100 triệu đồng"
+    }
+  ],
+  "amenities": [
+    { "name": "Đường Sao Biển", "category": "Giao thông", "size": "30m", "has_photo": false },
+    { "name": "Đường Sao Biển 11", "category": "Giao thông", "size": "20m", "has_photo": false },
+    { "name": "Trung tâm thương mại Vincom Mega Mall", "category": "Mua sắm & Thương mại", "has_photo": false },
+    { "name": "Hồ Ngọc Trai", "category": "Cảnh quan", "size": "24,5 ha", "has_photo": false },
+    { "name": "Biển nhân tạo", "category": "Cảnh quan", "has_photo": false }
+  ],
+  "business_conditions": {
+    "description": "Các căn shop sở hữu thiết kế vuông vắn, mặt tiền rộng và cửa kính lớn, cùng phần không gian vỉa hè rất rộng được phép sử dụng cho việc kinh doanh."
+  },
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí Shop thương mại SB11A",
+        "description": "Phối cảnh vị trí SB11A tại điểm giao đường Sao Biển và đường Sao Biển 11, thuộc phân khu Sao Biển",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng dãy shop SB11A",
+        "description": "Mặt bằng tổng thể dãy shop thương mại dịch vụ Sao Biển 11A",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "SB11A", "floor_label": "Mặt bằng điển hình shop SB11A", "display_order": 1, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

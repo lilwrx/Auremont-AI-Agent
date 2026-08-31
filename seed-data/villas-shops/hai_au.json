@@ -1,0 +1,192 @@
+{
+  "project": {
+    "id": "hai-au",
+    "name": "Hải Âu",
+    "full_name": "Tiểu khu Hải Âu - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "Tiểu khu Hải Âu là khu thấp tầng được thiết kế theo hình cánh chim Hải Âu, sở hữu tầm nhìn ra hồ điều hòa 24,5ha và biển hồ nước mặn 6,1ha của Vinhomes Ocean Park.",
+    "overview": {
+      "product_types": "Biệt thự thương mại đơn lập, song lập, liền kề",
+      "area_range": "89,96 – 417,52m²",
+      "ownership": "Sở hữu lâu dài"
+    },
+    "location_description": "Tiểu khu Hải Âu được thiết kế theo hình cánh chim Hải Âu, sở hữu tầm nhìn ra hồ điều hòa 24,5ha và biển hồ nước mặn 6,1ha, sở hữu những con phố thương mại ven biển ấn tượng dài khoảng 1km với cảnh quan bờ cát trắng mịn - được ví như một Long Beach thu nhỏ của nước Mỹ, nơi vốn nổi tiếng với những con phố thương mại sôi động bên bờ biển dài quyến rũ. Cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của đại đô thị Vinhomes Ocean Park như trung tâm thương mại, trường học, bệnh viện.",
+    "location_highlights": [
+      "Thiết kế theo hình cánh chim Hải Âu",
+      "Tầm nhìn ra hồ điều hòa 24,5ha",
+      "Tầm nhìn ra biển hồ nước mặn 6,1ha",
+      "Phố thương mại ven biển dài ~1km, được ví như 'Long Beach thu nhỏ' của Mỹ"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự đơn lập",
+      "size_min_sqm": 141.47,
+      "size_max_sqm": 417.52,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "3 tầng nổi + 1 tum",
+      "description": "Biệt thự đơn lập, 3 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự song lập",
+      "size_min_sqm": 148,
+      "size_max_sqm": 154.61,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "3 tầng nổi + 1 tum",
+      "description": "Biệt thự song lập, 3 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự liền kề",
+      "size_min_sqm": 89.96,
+      "size_max_sqm": 145,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Biệt thự liền kề (nhà phố thương mại), 4 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Thanh toán theo đúng tiến độ: chiết khấu 1% giá bán"
+    },
+    {
+      "no": 2,
+      "type": "Chiết khấu",
+      "content": "Không nhận bảo lãnh ngân hàng: chiết khấu 1,5% giá bán"
+    },
+    {
+      "no": 3,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm 100% giá trị hợp đồng trong vòng 15 ngày kể từ ngày ký HĐMB: chiết khấu 8,5% giá trị biệt thự"
+    },
+    {
+      "no": 4,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ lãi suất 0% từ ngày giải ngân đến 30/08/2020"
+    },
+    {
+      "no": 5,
+      "type": "Vay vốn",
+      "content": "Mức dư nợ hỗ trợ lên tới 70% giá trị hợp đồng (đã bao gồm VAT)"
+    },
+    {
+      "no": 6,
+      "type": "Vay vốn",
+      "content": "Thời gian vay tối đa 15 năm"
+    }
+  ],
+  "payment_schedule": [
+    {
+      "no": 1,
+      "label": "Lần 1",
+      "content": "Đặt cọc 300 triệu đồng - ngay khi ký Thỏa thuận đặt cọc"
+    },
+    {
+      "no": 2,
+      "label": "Lần 2",
+      "content": "Thanh toán 15% giá trị biệt thự (đã gồm VAT và tiền đặt cọc) - ngày ký Hợp đồng mua bán (HĐMB)"
+    },
+    {
+      "no": 3,
+      "label": "Lần 3",
+      "content": "Trong vòng 60 ngày kể từ ngày ký HĐMB, thanh toán 10% + 5% giá trị biệt thự (đã gồm VAT)"
+    },
+    {
+      "no": 4,
+      "label": "Lần 4",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/4/2019"
+    },
+    {
+      "no": 5,
+      "label": "Lần 5",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/8/2019"
+    },
+    {
+      "no": 6,
+      "label": "Lần 6",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/12/2019"
+    },
+    {
+      "no": 7,
+      "label": "Lần 7",
+      "content": "Thanh toán 15% giá trị biệt thự (đã gồm VAT) - ngày 20/3/2020 hoặc 20/4/2020"
+    },
+    {
+      "no": 8,
+      "label": "Lần 8",
+      "content": "Theo thông báo nhận nhà: thanh toán 25% giá trị biệt thự (đã gồm VAT) cộng phí bảo trì - dự kiến tháng 6 đến tháng 8 năm 2020"
+    }
+  ],
+  "amenities": [
+    { "name": "Hồ điều hòa 24,5ha", "category": "Cảnh quan", "size": "24,5 ha", "has_photo": false },
+    { "name": "Biển hồ nước mặn", "category": "Cảnh quan", "size": "6,1 ha", "has_photo": false },
+    { "name": "Phố thương mại ven biển (bờ cát trắng, phong cách 'Long Beach')", "category": "Tiện ích nội khu", "size": "~1 km", "has_photo": false },
+    { "name": "Trung tâm thương mại", "category": "Tiện ích nội khu", "has_photo": false },
+    { "name": "Trường học", "category": "Giáo dục", "has_photo": false },
+    { "name": "Bệnh viện", "category": "Y tế", "has_photo": false }
+  ],
+  "unit_layouts": [
+    { "name": "Biệt thự đơn lập", "size_sqm": 417.52, "apartment_type": "Biệt thự đơn lập", "display_order": 1, "url": null },
+    { "name": "Biệt thự song lập", "size_sqm": 154.61, "apartment_type": "Biệt thự song lập", "display_order": 2, "url": null },
+    { "name": "Biệt thự liền kề", "size_sqm": 145, "apartment_type": "Biệt thự liền kề", "display_order": 3, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí tiểu khu Hải Âu",
+        "description": "Phối cảnh vị trí tiểu khu Hải Âu trong tổng thể Vinhomes Ocean Park, giáp hồ điều hòa và biển hồ nước mặn",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng tiểu khu Hải Âu",
+        "description": "Mặt bằng tổng thể tiểu khu Hải Âu, thiết kế theo hình cánh chim Hải Âu",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "name": "Phối cảnh tiểu khu Hải Âu",
+        "description": "Phối cảnh tổng thể tiểu khu Hải Âu",
+        "display_order": 2,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "Đơn lập 1", "floor_label": "Thiết kế mặt bằng biệt thự đơn lập mẫu 1", "display_order": 1, "url": null },
+      { "tower": "Đơn lập 2", "floor_label": "Thiết kế mặt bằng biệt thự đơn lập mẫu 2", "display_order": 2, "url": null },
+      { "tower": "Song lập 1", "floor_label": "Thiết kế mặt bằng biệt thự song lập mẫu 1", "display_order": 3, "url": null },
+      { "tower": "Song lập 2", "floor_label": "Thiết kế mặt bằng biệt thự song lập mẫu 2", "display_order": 4, "url": null },
+      { "tower": "Liền kề 1", "floor_label": "Thiết kế mặt bằng biệt thự liền kề mẫu 1", "display_order": 5, "url": null },
+      { "tower": "Liền kề 2", "floor_label": "Thiết kế mặt bằng biệt thự liền kề mẫu 2", "display_order": 6, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: p110-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health/ready
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: SECRET_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: COHERE_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        fromService:
+          type: keyvalue
+          name: p110-redis
+          property: connectionString
+      - key: CORS_ORIGINS
+        sync: false
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API_KEY
+        sync: false
+      - key: MINIO_ENDPOINT
+        sync: false
+      - key: MINIO_ACCESS_KEY
+        sync: false
+      - key: MINIO_SECRET_KEY
+        sync: false
+      - key: MINIO_SECURE
+        value: "true"
+      - key: MINIO_BUCKET_DOCUMENTS
+        value: salesmate-documents
+      - key: PROJECT_IMAGES_BASE_URL
+        value: https://pub-2b6dd93e8e8948099737838a9bf56770.r2.dev
+
+  - type: keyvalue
+    name: p110-redis
+    plan: free
+    ipAllowList: []

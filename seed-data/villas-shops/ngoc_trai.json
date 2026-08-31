@@ -1,0 +1,220 @@
+{
+  "project": {
+    "id": "ngoc-trai",
+    "name": "Ngọc Trai",
+    "full_name": "Tiểu khu Ngọc Trai - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "Tiểu khu Ngọc Trai là khu thấp tầng sở hữu vị trí trung tâm - vị trí 'trái tim' của đại đô thị Vinhomes Ocean Park, được bao quanh bởi hồ điều hòa trung tâm 25ha và hệ thống kênh đào rộng lớn, mang lại không gian sống riêng tư với hệ thống tiện ích, cảnh quan đẳng cấp và an ninh đảm bảo.",
+    "overview": {
+      "product_types": "Biệt thự đơn lập, biệt thự song lập, biệt thự liền kề, nhà phố shophouse",
+      "area_range": "67,2 – 347,5m²",
+      "ownership": "Sở hữu lâu dài"
+    },
+    "location_description": "Tiểu khu Ngọc Trai nằm tại vị trí trung tâm của Vinhomes Ocean Park, được bao quanh bởi hồ điều hòa trung tâm 25ha và hệ thống kênh đào rộng lớn. Cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của đại đô thị như Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học Vinschool, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Vị trí trung tâm - 'trái tim' của Vinhomes Ocean Park",
+      "Bao quanh bởi hồ điều hòa trung tâm 25ha",
+      "Bao quanh bởi hệ thống kênh đào rộng lớn",
+      "Gần cao tốc Hà Nội – Hải Phòng"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự đơn lập",
+      "size_min_sqm": 227.5,
+      "size_max_sqm": 347.5,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "3 tầng nổi + 1 tum",
+      "description": "Biệt thự đơn lập, 3 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự song lập",
+      "size_min_sqm": 135,
+      "size_max_sqm": 338,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "3 tầng nổi + 1 tum",
+      "description": "Biệt thự song lập, 3 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự liền kề",
+      "size_min_sqm": 70.8,
+      "size_max_sqm": 121,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Biệt thự liền kề, 4 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Shophouse",
+      "apartment_type": "Nhà phố shophouse",
+      "size_min_sqm": 67.2,
+      "size_max_sqm": 102,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Nhà phố shophouse, 4 tầng nổi + 1 tum",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Quà tặng",
+      "content": "Tặng 1 Voucher mua xe VinFast trị giá 50 triệu đồng khi mua biệt thự (không quy đổi thành tiền hay trừ vào giá trị hợp đồng)"
+    },
+    {
+      "no": 2,
+      "type": "Chiết khấu",
+      "content": "Thanh toán theo đúng tiến độ: chiết khấu 1% giá bán"
+    },
+    {
+      "no": 3,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm 100% giá trị hợp đồng trong vòng 15 ngày kể từ ngày ký HĐMB: chiết khấu 7,5% giá trị biệt thự"
+    },
+    {
+      "no": 4,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ lãi suất 0% từ ngày giải ngân đến 30/06/2020"
+    },
+    {
+      "no": 5,
+      "type": "Vay vốn",
+      "content": "Mức dư nợ hỗ trợ lên tới 70% giá trị hợp đồng (đã bao gồm VAT)"
+    },
+    {
+      "no": 6,
+      "type": "Vay vốn",
+      "content": "Thời gian vay tối đa 15 năm, ân hạn nợ gốc và không phạt trả nợ trước hạn"
+    }
+  ],
+  "payment_schedule": [
+    {
+      "no": 1,
+      "label": "Lần 1",
+      "content": "Đặt cọc 300 triệu đồng - ngày ký Thỏa thuận đặt cọc"
+    },
+    {
+      "no": 2,
+      "label": "Lần 2",
+      "content": "Thanh toán 15% giá trị biệt thự (đã gồm VAT và tiền đặt cọc) - ngày ký Hợp đồng mua bán (HĐMB)"
+    },
+    {
+      "no": 3,
+      "label": "Lần 3",
+      "content": "Trong vòng 60 ngày kể từ ngày ký HĐMB, thanh toán 10% + 5% giá trị biệt thự (đã gồm VAT). Chủ đầu tư trả lãi 12%/năm cho phần 5% thanh toán trước hạn"
+    },
+    {
+      "no": 4,
+      "label": "Lần 4",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/4/2019"
+    },
+    {
+      "no": 5,
+      "label": "Lần 5",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/7/2019 hoặc 20/8/2019"
+    },
+    {
+      "no": 6,
+      "label": "Lần 6",
+      "content": "Thanh toán 10% giá trị biệt thự (đã gồm VAT) - ngày 20/10/2019 hoặc 20/12/2019"
+    },
+    {
+      "no": 7,
+      "label": "Lần 7",
+      "content": "Thanh toán 15% giá trị biệt thự (đã gồm VAT) - ngày 20/1/2020 hoặc 20/3/2020"
+    },
+    {
+      "no": 8,
+      "label": "Lần 8",
+      "content": "Theo thông báo nhận nhà: thanh toán 25% giá trị biệt thự (đã gồm VAT) cộng 5% giá trị nhà ở và phí bảo trì tương đương 0,5% giá trị nhà ở (chưa gồm VAT) - dự kiến tháng 3 đến tháng 6 năm 2020"
+    }
+  ],
+  "amenities": [
+    { "name": "Hệ thống 5 công viên", "category": "Cảnh quan", "has_photo": false },
+    { "name": "Đường dạo bộ ven hồ và ven sông", "category": "Cảnh quan", "has_photo": false },
+    { "name": "Bể bơi", "category": "Thể thao & Sức khỏe", "has_photo": false },
+    { "name": "Sân chơi trẻ em", "category": "Tiện ích ngoài trời", "has_photo": false },
+    { "name": "Sân thể thao", "category": "Thể thao & Sức khỏe", "has_photo": false },
+    { "name": "Sân tập gym ngoài trời", "category": "Thể thao & Sức khỏe", "has_photo": false },
+    { "name": "Vườn dưỡng sinh", "category": "Cảnh quan", "has_photo": false },
+    { "name": "Hồ điều hòa trung tâm 25ha", "category": "Cảnh quan", "size": "25 ha", "has_photo": false },
+    { "name": "Hệ thống kênh đào", "category": "Cảnh quan", "has_photo": false }
+  ],
+  "unit_layouts": [
+    { "name": "Biệt thự đơn lập", "size_sqm": 347.5, "apartment_type": "Biệt thự đơn lập", "display_order": 1, "url": null },
+    { "name": "Biệt thự song lập", "size_sqm": 338, "apartment_type": "Biệt thự song lập", "display_order": 2, "url": null },
+    { "name": "Biệt thự liền kề", "size_sqm": 121, "apartment_type": "Biệt thự liền kề", "display_order": 3, "url": null },
+    { "name": "Nhà phố shophouse", "size_sqm": 102, "apartment_type": "Nhà phố shophouse", "display_order": 4, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí tiểu khu Ngọc Trai",
+        "description": "Phối cảnh vị trí tiểu khu Ngọc Trai trong tổng thể Vinhomes Ocean Park, giáp cao tốc Hà Nội - Hải Phòng",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "name": "Vị trí các tiểu khu",
+        "description": "Sơ đồ vị trí các tiểu khu Ngọc Trai, Sao Biển, San Hô, Hải Âu trong khu đô thị",
+        "display_order": 2,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng tiểu khu Ngọc Trai",
+        "description": "Mặt bằng tổng thể tiểu khu Ngọc Trai",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "name": "Phối cảnh tiểu khu Ngọc Trai",
+        "description": "Phối cảnh tổng thể tiểu khu Ngọc Trai",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "name": "Thế giới tiện ích tinh tế",
+        "description": "Sơ đồ hệ thống tiện ích nội khu tiểu khu Ngọc Trai",
+        "display_order": 3,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "Đơn lập", "floor_label": "Thiết kế mặt bằng biệt thự đơn lập", "display_order": 1, "url": null },
+      { "tower": "Song lập 1", "floor_label": "Thiết kế mặt bằng biệt thự song lập mẫu 1", "display_order": 2, "url": null },
+      { "tower": "Song lập 2", "floor_label": "Thiết kế mặt bằng biệt thự song lập mẫu 2", "display_order": 3, "url": null },
+      { "tower": "Liền kề", "floor_label": "Thiết kế mặt bằng biệt thự liền kề", "display_order": 4, "url": null },
+      { "tower": "Shophouse 1", "floor_label": "Thiết kế mặt bằng shophouse mẫu 1", "display_order": 5, "url": null },
+      { "tower": "Shophouse 2", "floor_label": "Thiết kế mặt bằng shophouse mẫu 2", "display_order": 6, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

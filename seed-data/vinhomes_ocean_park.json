@@ -1,0 +1,341 @@
+{
+  "project": {
+    "id": "vinhomes-ocean-park",
+    "name": "Vinhomes Ocean Park",
+    "alternate_name": "Vinhomes Gia Lâm",
+    "aliases": ["Ocean Park 1", "Vinhomes Ocean Park 1"],
+    "developer": "Tập đoàn Vingroup",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "wards": ["Phường Trâu Quỳ", "Dương Xá", "Kiêu Kỵ", "Đa Tốn"],
+      "area_hectares": 420
+    },
+    "description": "Một khu đô thị hiện đại và văn minh được quy hoạch theo mô hình sinh thái của Singapore. Dự án bao gồm khoảng 66 tòa chung cư và 3,000 căn nhà ở thấp tầng, với mật độ xây dựng 19.2%.",
+    "overview_description": "Vinhomes Ocean Park là một khu đô thị quy mô lớn kết hợp giữa các tòa chung cư cao cấp, biệt thự hạng sang, và các tiện ích dịch vụ hiện đại. Dự án sở hữu hai công trình nước lớn: Hồ Ngọc Trai (24.5 hectare) và Crystal Lagoons - biển nhân tạo mặn lớn nhất Việt Nam (6.1 hectare).",
+    "apartment_description": "Chung cư Vinhomes Ocean Park được quy hoạch với các giai đoạn, chia thành nhiều phân khu khác nhau. Khi hoàn thành sẽ có tổng khoảng 66 tòa căn hộ.",
+    "villa_description": "Biệt thự Vinhomes Ocean Park bao gồm khoảng gần 3.000 căn biệt thự, liền kề, shophouse và shop thương mại dịch vụ nằm quanh hồ và biển hồ, được ví như 'Beach resort trong lòng Hà Nội'.",
+    "highlights": [
+      "Crystal Lagoons - Biển nhân tạo mặn lớn nhất Việt Nam (6.1 hectare)",
+      "Hồ Ngọc Trai - Hồ điều tiết chính của dự án (24.5 hectare)",
+      "Bãi cát trắng bao quanh Hồ Ngọc Trai với cây dừa",
+      "66 tòa chung cư cao cấp",
+      "3,000 căn nhà ở thấp tầng",
+      "Gần 100 khu BBQ ngoài trời",
+      "Kết nối với ga tàu điện ngầm Line 8",
+      "Trường Vinschool (K-12), Brighton College, và Vinuni University",
+      "Bệnh viện Vinmec",
+      "Trung tâm thương mại Vincom Mega Mall"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "price_min": 1800000000,
+      "price_max": 2200000000,
+      "size_min_sqm": 25,
+      "size_max_sqm": 41,
+      "currency": "VND",
+      "description": "Căn hộ studio nhỏ gọn, phù hợp cho chuyên viên trẻ hoặc nhà đầu tư"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 Phòng ngủ (1PN)",
+      "price_min": 2300000000,
+      "price_max": 2500000000,
+      "size_min_sqm": 35,
+      "size_max_sqm": 49,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ, phù hợp cho cặp vợ chồng hoặc gia đình nhỏ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 Phòng ngủ + 1 Không gian đa năng (1PN+1)",
+      "price_min": 2600000000,
+      "price_max": 3100000000,
+      "size_min_sqm": 43,
+      "size_max_sqm": 52,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ kèm không gian đa năng linh hoạt, có thể kê bàn làm việc hoặc giường đơn"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 Phòng ngủ (2PN)",
+      "price_min": 3100000000,
+      "price_max": 4300000000,
+      "size_min_sqm": 53,
+      "size_max_sqm": 75,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ, phù hợp cho gia đình với 1-2 con"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 Phòng ngủ + 1 Không gian đa năng (2PN+1)",
+      "price_min": 3400000000,
+      "price_max": 4800000000,
+      "size_min_sqm": 63,
+      "size_max_sqm": 80,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ kèm không gian đa năng linh hoạt, có thể kê bàn làm việc hoặc giường đơn"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 Phòng ngủ (3PN)",
+      "price_min": 4200000000,
+      "price_max": 6100000000,
+      "size_min_sqm": 73,
+      "size_max_sqm": 105,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ, lý tưởng cho gia đình lớn"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Biệt thự",
+      "price_min": 30000000000,
+      "price_max": 300000000000,
+      "size_min_sqm": 200,
+      "size_max_sqm": 850,
+      "currency": "VND",
+      "storeys": "3 tầng + 1 tum",
+      "description": "Biệt thự đơn lập, 3 tầng + 1 tum"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Song lập",
+      "price_min": 16000000000,
+      "price_max": 40000000000,
+      "size_min_sqm": 133.5,
+      "size_max_sqm": 184,
+      "currency": "VND",
+      "storeys": "3 tầng + 1 tum",
+      "description": "Biệt thự song lập, 3 tầng + 1 tum"
+    },
+    {
+      "category": "Biệt thự",
+      "apartment_type": "Liền kề",
+      "price_min": 13000000000,
+      "price_max": 30000000000,
+      "size_min_sqm": 56,
+      "size_max_sqm": 168,
+      "currency": "VND",
+      "storeys": "3 - 4 tầng + 1 tum",
+      "description": "Nhà liền kề, 3 - 4 tầng + 1 tum"
+    },
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shophouse",
+      "price_min": 16000000000,
+      "price_max": 100000000000,
+      "size_min_sqm": 60,
+      "size_max_sqm": 385,
+      "currency": "VND",
+      "storeys": "3 - 4 tầng + 1 tum",
+      "description": "Nhà phố thương mại, 3 - 4 tầng + 1 tum"
+    },
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shop thương mại dịch vụ",
+      "price_min": 7000000000,
+      "price_max": 30000000000,
+      "size_min_sqm": 55,
+      "size_max_sqm": 200,
+      "currency": "VND",
+      "storeys": "5 tầng",
+      "description": "Shop thương mại dịch vụ, 5 tầng"
+    }
+  ],
+  "amenities": [
+    {
+      "id": "ho-ngoc-trai",
+      "name": "Hồ Ngọc Trai",
+      "category": "Giải trí & Leisure",
+      "description": "Hồ điều tiết lớn (24.5 hectare), được gọi là 'phổi' của Vinhomes Ocean Park, mang lại không khí trong lành và tầm nhìn tuyệt đẹp",
+      "size": "24.5 hectares"
+    },
+    {
+      "id": "crystal-lagoons",
+      "name": "Crystal Lagoons (Biển Nhân Tạo)",
+      "category": "Giải trí & Leisure",
+      "description": "Biển nhân tạo mặn lớn nhất Việt Nam (6.1 hectare) với nước mặn tự nhiên, mang lại trải nghiệm biển độc đáo",
+      "size": "6.1 hectares"
+    },
+    {
+      "id": "bai-cat-trang",
+      "name": "Bãi Cát Trắng",
+      "category": "Giải trí & Leisure",
+      "description": "Bãi cát trắng bao quanh Hồ Ngọc Trai với cây dừa, tạo không khí nghi dưỡng như ở bãi biển"
+    },
+    {
+      "id": "vuon-nhat-ban",
+      "name": "Vườn Nhật Bản",
+      "category": "Giải trí & Leisure",
+      "description": "Vườn cảnh với ao koi trang trí, mang đến sự yên tĩnh và tĩnh tâm"
+    },
+    {
+      "id": "khu-bbq",
+      "name": "Khu BBQ",
+      "category": "Giải trí & Leisure",
+      "description": "Gần 100 điểm BBQ ngoài trời, lý tưởng cho các buổi họp mặt gia đình và bạn bè",
+      "count": "~100 points"
+    },
+    {
+      "id": "cong-vien-xanh",
+      "name": "Công Viên Xanh & Gym Ngoài Trời",
+      "category": "Giải trí & Leisure",
+      "description": "Công viên xanh với các thiết bị gym hiện đại được đặt ngoài trời, kết hợp tập luyện với thiên nhiên"
+    },
+    {
+      "id": "san-the-thao",
+      "name": "Sân Thể Thao",
+      "category": "Giải trí & Leisure",
+      "description": "Sân đa năng cho các hoạt động thể thao khác nhau"
+    },
+    {
+      "id": "san-choi-tre-em",
+      "name": "Sân Chơi Trẻ Em",
+      "category": "Giải trí & Leisure",
+      "description": "Khu vui chơi an toàn cho trẻ em với các thiết bị hiện đại"
+    },
+    {
+      "id": "wellness-lawn",
+      "name": "Wellness Lawn",
+      "category": "Giải trí & Leisure",
+      "description": "Khu vực thư giãn và chăm sóc sức khỏe"
+    },
+    {
+      "id": "be-boi",
+      "name": "Bể Bơi",
+      "category": "Giải trí & Leisure",
+      "description": "Bể bơi trong nhà và ngoài trời, tổng diện tích ~1,000 m²",
+      "total_area_sqm": 1000
+    },
+    {
+      "id": "duong-di-bo-xe-dap-chay-bo",
+      "name": "Đường Đi Bộ, Xe Đạp & Chạy Bộ",
+      "category": "Giải trí & Leisure",
+      "description": "Các đường mòn quanh Hồ Ngọc Trai, thích hợp cho đi bộ, đạp xe và chạy bộ"
+    },
+    {
+      "id": "diem-cau-ca",
+      "name": "Điểm Câu Cá",
+      "category": "Giải trí & Leisure",
+      "description": "Các điểm được chỉ định để câu cá trên hồ"
+    },
+    {
+      "id": "hoat-dong-thuy-the-thao",
+      "name": "Hoạt Động Thủy Thể Thao",
+      "category": "Giải trí & Leisure",
+      "description": "Các hoạt động trên nước như chèo thuyền, chèo kayak"
+    },
+    {
+      "id": "benh-vien-vinmec",
+      "name": "Bệnh Viện Vinmec",
+      "category": "Chăm Sóc Sức Khỏe",
+      "description": "Bệnh viện đa khoa hiện đại cung cấp dịch vụ y tế toàn diện"
+    },
+    {
+      "id": "truong-vinschool",
+      "name": "Trường Vinschool (K-12)",
+      "category": "Giáo Dục",
+      "description": "Trường học từ mầm non đến phổ thông, giáo dục toàn diện theo chuẩn quốc tế"
+    },
+    {
+      "id": "brighton-college",
+      "name": "Brighton College",
+      "category": "Giáo Dục",
+      "description": "Trường quốc tế cấp K-12 với chương trình giáo dục anh ngữ"
+    },
+    {
+      "id": "vinuni-university",
+      "name": "Đại Học VinUni",
+      "category": "Giáo Dục",
+      "description": "Trường đại học tiên tiến cung cấp chương trình đại học quốc tế"
+    },
+    {
+      "id": "deway",
+      "name": "Deway",
+      "category": "Giáo Dục",
+      "description": "Cơ sở giáo dục bổ sung"
+    },
+    {
+      "id": "truong-cong",
+      "name": "Trường Công Lập",
+      "category": "Giáo Dục",
+      "description": "Các trường công lập trong khu vực"
+    },
+    {
+      "id": "vincom-mega-mall",
+      "name": "Vincom Mega Mall",
+      "category": "Mua Sắm & Thương Mại",
+      "description": "Trung tâm thương mại lớn với các cửa hàng, nhà hàng, rạp chiếu phim"
+    },
+    {
+      "id": "khu-shophouse",
+      "name": "Khu Shophouse",
+      "category": "Mua Sắm & Thương Mại",
+      "description": "Khu mua sắm có các cửa hàng bán lẻ và quán ăn, kết hợp khách sạn và residential"
+    },
+    {
+      "id": "sieu-thi-hang-ngay",
+      "name": "Siêu Thị & Cửa Hàng Tiện Lợi",
+      "category": "Mua Sắm & Thương Mại",
+      "description": "Các cửa hàng tiện lợi và siêu thị bán các sản phẩm sinh hoạt hằng ngày"
+    },
+    {
+      "id": "ga-tau-dien-ngam",
+      "name": "Ga Tàu Điện Ngầm (Tuyến 8)",
+      "category": "Giao Thông & Hạ Tầng",
+      "description": "Ga tàu điện ngầm trên tuyến 8, cung cấp kết nối giao thông nhanh chóng tới toàn thành phố",
+      "line": "Line 8"
+    },
+    {
+      "id": "he-thong-bao-an",
+      "name": "Hệ Thống Bảo An 24/7",
+      "category": "An Toàn & Bảo An",
+      "description": "Hệ thống giám sát CCTV hiện đại với bảo an suốt 24 giờ, 7 ngày một tuần"
+    }
+  ],
+  "images": {
+    "gallery": [],
+    "floor_plans": [],
+    "amenity_icons": []
+  },
+  "documents": {
+    "policies": [
+      {
+        "name": "Chính Sách Khuyến Mại & Tài Chính 0%",
+        "description": "Các chính sách giảm giá và lãi suất 0% khi mua căn hộ",
+        "type": "policy",
+        "availability": "Yêu cầu đăng ký qua form"
+      },
+      {
+        "name": "Danh Sách Giá & Mặt Bằng Căn Hộ",
+        "description": "Bảng giá đầy đủ và mặt bằng thiết kế các loại căn hộ",
+        "type": "price_list",
+        "availability": "Yêu cầu đăng ký qua form"
+      },
+      {
+        "name": "Mô Hình 3D & Tham Quan Căn Mẫu",
+        "description": "Đăng ký tham quan căn hộ mẫu và mô hình 3D của dự án",
+        "type": "tour",
+        "availability": "Yêu cầu đăng ký qua form"
+      }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "+84 91 597 6556",
+    "business_hours": "24/7",
+    "offices": [
+      {
+        "name": "Vinhomes Office",
+        "address": "L3-01, Level 2, Vincom Mega Mall, Vinhomes Ocean Park, Gia Lâm, Hà Nội"
+      },
+      {
+        "name": "Masterise Office",
+        "address": "The Galleria by Masterise Homes, Vinhomes Ocean Park, Gia Lâm, Hà Nội"
+      }
+    ]
+  }
+}

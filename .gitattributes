@@ -1,0 +1,6 @@
+# Shell script chạy trong container Linux: phải giữ LF.
+# Nếu git checkout ra CRLF trên Windows, container sẽ báo lỗi khó hiểu kiểu
+# "exec /app/docker-entrypoint.sh: no such file or directory".
+*.sh text eol=lf
+docker-entrypoint.sh text eol=lf
+Dockerfile text eol=lf

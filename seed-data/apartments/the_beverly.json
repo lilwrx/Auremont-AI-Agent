@@ -1,0 +1,226 @@
+{
+  "project": {
+    "id": "the-beverly",
+    "name": "The Beverly",
+    "full_name": "The Beverly - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "The Metropolitan",
+    "developer": "Mitsubishi Corporation và Vingroup",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Beverly là phân khu căn hộ thuộc The Metropolitan, Vinhomes Ocean Park.",
+    "overview": {
+      "towers": [
+        "BE1",
+        "BE2",
+        "BE3",
+        "BE4"
+      ],
+      "towers_on_sale": [
+        "BE1",
+        "BE2",
+        "BE3",
+        "BE4"
+      ],
+      "total_units": 1825,
+      "unit_types": "Studio, 1 ngủ, 2 ngủ, 2 ngủ + 1, 3 ngủ",
+      "area_range": "28 – 108,2m²",
+      "floors": "24 – 26 tầng",
+      "handover": "Quý 3/2026",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The Beverly tọa lạc tại vị trí trung tâm phân khu The Metropolitan, kế cận Quảng trường ga Metro tuyến 8, mặt đường Lý Thánh Tông, giáp các tuyến Vinbus và đường Hải Đăng 3/5/8. Dự án nằm trong lòng đại đô thị Vinhomes Ocean Park nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của khu đô thị như hồ Ngọc Trai, Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học Vinschool, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Kế cận Quảng trường ga Metro tuyến 8",
+      "Kế cận đường Lý Thánh Tông",
+      "Giáp các tuyến Vinbus",
+      "Giáp đường Hải Đăng 3/5/8"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 28,
+      "size_max_sqm": 36,
+      "price_min": 1800000000,
+      "price_max": 2100000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 ngủ",
+      "size_min_sqm": 43.2,
+      "size_max_sqm": 48.6,
+      "price_min": 2500000000,
+      "price_max": 3200000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ",
+      "size_min_sqm": 54.4,
+      "size_max_sqm": 75.3,
+      "price_min": 3100000000,
+      "price_max": 4200000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 ngủ + 1",
+      "size_min_sqm": 76.2,
+      "size_max_sqm": 79,
+      "price_min": 4200000000,
+      "price_max": 4500000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 ngủ",
+      "size_min_sqm": 81.5,
+      "size_max_sqm": 109.2,
+      "price_min": 5300000000,
+      "price_max": 6500000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 1% khi không nhận bảo lãnh ngân hàng"
+    },
+    {
+      "no": 2,
+      "type": "Chiết khấu",
+      "content": "Early Bird chiết khấu 4% cho 150 căn đầu tiên"
+    },
+    {
+      "no": 3,
+      "type": "Thanh toán",
+      "content": "Thanh toán 14 đợt, mỗi đợt 3–5%"
+    },
+    {
+      "no": 4,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị căn hộ, lãi suất 0%, ân hạn nợ gốc đến 20/12/2026"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Bể bơi Santa Monica",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Quảng trường Beverly",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Đài phun nước",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Vườn đọc sách",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": false
+    },
+    {
+      "name": "Sân chơi sắc màu",
+      "category": "Tiện ích ngoài trời",
+      "has_photo": true
+    },
+    {
+      "name": "Gym & Sauna",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Kids Corner",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    },
+    {
+      "name": "Game room",
+      "category": "Tiện ích trong nhà",
+      "has_photo": true
+    }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 36, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn 1 ngủ", "size_sqm": 48.6, "apartment_type": "1 ngủ", "display_order": 2, "url": null },
+    { "name": "Căn 2 ngủ", "size_sqm": 75.3, "apartment_type": "2 ngủ", "display_order": 3, "url": null },
+    { "name": "Căn 2 ngủ + 1", "size_sqm": 79, "apartment_type": "2 ngủ + 1", "display_order": 4, "url": null },
+    { "name": "Căn 3 ngủ", "size_sqm": 109.2, "apartment_type": "3 ngủ", "display_order": 5, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The Beverly trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The Beverly trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng The Beverly Vinhomes Ocean Park",
+        "description": "Mặt bằng tổng thể phân khu The Beverly, có đánh số vị trí các tòa và tiện ích",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      {
+        "tower": "BE1",
+        "floor_label": "Mặt bằng tòa BE1",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "tower": "BE2",
+        "floor_label": "Mặt bằng tòa BE2",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "tower": "BE3",
+        "floor_label": "Mặt bằng tòa BE3",
+        "display_order": 3,
+        "url": null
+      },
+      {
+        "tower": "BE4",
+        "floor_label": "Mặt bằng tòa BE4",
+        "display_order": 4,
+        "url": null
+      }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Bể bơi Santa Monica", "display_order": 1, "url": null },
+      { "name": "Quảng trường Beverly", "display_order": 2, "url": null },
+      { "name": "Đài phun nước", "display_order": 3, "url": null },
+      { "name": "Sân chơi sắc màu", "display_order": 4, "url": null },
+      { "name": "Gym & Sauna", "display_order": 5, "url": null },
+      { "name": "Kids Corner", "display_order": 6, "url": null },
+      { "name": "Game room", "display_order": 7, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

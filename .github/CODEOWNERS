@@ -1,0 +1,14 @@
+# Every PR needs an approving review from someone on this list who is not its author.
+# GitHub excludes the author automatically, so a single default line is enough to make
+# "one other maintainer read this" the rule rather than a habit.
+#
+# This file only requests the review. It is enforced by branch protection on `main` and
+# `develop` ("Require a pull request before merging" + "Require review from Code Owners");
+# without that setting a PR can still be merged unreviewed. See CONTRIBUTING.md → Review.
+
+# @vinhnguyen161006      = Nguyen Quang Vinh (Team Lead)
+# @truclinh1234          = Le Thi Truc Linh
+# @lilwrx                = Hoang Truong Giang
+# @peterparkervanphuc    = Dao Ngoc Duy
+
+*   @vinhnguyen161006 @truclinh1234 @lilwrx @peterparkervanphuc

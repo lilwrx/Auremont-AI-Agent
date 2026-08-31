@@ -1,0 +1,11 @@
+# docker-compose.yml builds this image with `context: ./frontend`, so Docker reads this
+# file rather than the repo-root .dockerignore. Without it, node_modules and a stale dist/
+# are uploaded into the build context and then COPY'd over the output of `npm ci`.
+node_modules
+dist
+.env
+.env.*
+!.env.example
+*.md
+Dockerfile
+.dockerignore

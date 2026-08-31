@@ -1,0 +1,29 @@
+.git
+.agents
+.ai-log
+.claude
+.codex
+.cursor
+.gemini
+.gitignore
+.env
+.venv
+__pycache__
+*.pyc
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.mypy_cache
+.tmp
+tmp/
+docs/
+presentation/
+# The backend image builds with `context: .`, so without these the entire frontend tree —
+# node_modules included — is uploaded into its build context for no reason.
+node_modules
+frontend/
+*.md
+!requirements.txt
+.dockerignore
+Dockerfile
+docker-compose.yml

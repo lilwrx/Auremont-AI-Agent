@@ -1,0 +1,260 @@
+{
+  "project": {
+    "id": "the-sapphire",
+    "name": "The Sapphire",
+    "full_name": "The Sapphire - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "Phân khu Sapphire là khu căn hộ đầu tiên mở bán tại Vinhomes Ocean Park, hướng tới dòng căn hộ hiện đại, diện tích vừa phải phù hợp với nhu cầu sử dụng của giới trẻ năng động. Phân khu gồm 2 tiểu khu Sapphire 1 và Sapphire 2.",
+    "overview": {
+      "towers": [
+        "S1.01", "S1.02", "S1.03", "S1.04", "S1.05", "S1.06", "S1.07", "S1.08", "S1.09", "S1.10", "S1.11", "S1.12",
+        "S2.01", "S2.02", "S2.03", "S2.04", "S2.05", "S2.06", "S2.07", "S2.08", "S2.09", "S2.10",
+        "S2.11", "S2.12", "S2.13", "S2.14", "S2.15", "S2.16", "S2.17", "S2.18", "S2.19"
+      ],
+      "towers_on_sale": [
+        "S1.01", "S1.02", "S1.03", "S1.04", "S1.05", "S1.06", "S1.07", "S1.08", "S1.09", "S1.10", "S1.11", "S1.12",
+        "S2.01", "S2.02", "S2.03", "S2.04", "S2.05", "S2.06", "S2.07", "S2.08", "S2.09", "S2.10",
+        "S2.11", "S2.12", "S2.13", "S2.14", "S2.15", "S2.16", "S2.17", "S2.18", "S2.19"
+      ],
+      "unit_types": "Studio, 1 phòng ngủ, 2 phòng ngủ, 3 phòng ngủ",
+      "area_range": "26 – 106,3m²",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "Phân khu Sapphire nằm gần cổng chính Vinhomes Ocean Park, tiếp giáp khu thấp tầng, sở hữu lợi thế giao thông thuận tiện và tầm nhìn hướng ra hồ điều hòa và biển nhân tạo Crystal Lagoons.",
+    "location_highlights": [
+      "Gần cổng chính Vinhomes Ocean Park",
+      "Tiếp giáp khu thấp tầng",
+      "Tầm nhìn hồ điều hòa và biển nhân tạo Crystal Lagoons"
+    ],
+    "sub_zones": [
+      {
+        "id": "sapphire-1",
+        "name": "Sapphire 1",
+        "code": "S1",
+        "towers": ["S1.01", "S1.02", "S1.03", "S1.04", "S1.05", "S1.06", "S1.07", "S1.08", "S1.09", "S1.10", "S1.11", "S1.12"],
+        "total_towers": 11,
+        "sales_status": "Đang mở bán",
+        "building_shape": "Mặt bằng chữ L, Z, T",
+        "description": "Sapphire 1 nằm tại trung tâm vùng đắc địa của Vinhomes Ocean Park, sở hữu 3 loại mặt bằng điển hình chữ L, chữ Z và chữ T, được mệnh danh 'Khu căn hộ sáng nhất thành phố biển hồ'.",
+        "unit_types": [
+          { "apartment_type": "Studio", "size_min_sqm": 31.2, "size_max_sqm": 37.5 },
+          { "apartment_type": "1 phòng ngủ", "size_min_sqm": 41.3, "size_max_sqm": 51.5 },
+          { "apartment_type": "2 phòng ngủ", "size_min_sqm": 60, "size_max_sqm": 69.4 },
+          { "apartment_type": "3 phòng ngủ", "size_min_sqm": 79.9, "size_max_sqm": 106.3 }
+        ]
+      },
+      {
+        "id": "sapphire-2",
+        "name": "Sapphire 2",
+        "code": "S2",
+        "towers": ["S2.01", "S2.02", "S2.03", "S2.04", "S2.05", "S2.06", "S2.07", "S2.08", "S2.09", "S2.10", "S2.11", "S2.12", "S2.13", "S2.14", "S2.15", "S2.16", "S2.17", "S2.18", "S2.19"],
+        "total_towers": 16,
+        "sales_status": "Đã mở bán toàn bộ",
+        "building_shape": "Mặt bằng chữ I, L, T",
+        "description": "Sapphire 2 gồm 16 tòa căn hộ với thiết kế mặt bằng hiện đại theo 3 kiểu mặt bằng điển hình chữ I, chữ L và chữ T.",
+        "unit_types": [
+          { "apartment_type": "Studio", "size_min_sqm": 26, "size_max_sqm": 38 },
+          { "apartment_type": "1 phòng ngủ", "size_min_sqm": 43, "size_max_sqm": 48 },
+          { "apartment_type": "2 phòng ngủ", "size_min_sqm": 55, "size_max_sqm": 66 },
+          { "apartment_type": "3 phòng ngủ", "size_min_sqm": 75, "size_max_sqm": 80 }
+        ]
+      }
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "sub_zone": "Sapphire 1",
+      "size_min_sqm": 31.2,
+      "size_max_sqm": 37.5,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ studio",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 phòng ngủ",
+      "sub_zone": "Sapphire 1",
+      "size_min_sqm": 41.3,
+      "size_max_sqm": 51.5,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 phòng ngủ",
+      "sub_zone": "Sapphire 1",
+      "size_min_sqm": 60,
+      "size_max_sqm": 69.4,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 phòng ngủ",
+      "sub_zone": "Sapphire 1",
+      "size_min_sqm": 79.9,
+      "size_max_sqm": 106.3,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "sub_zone": "Sapphire 2",
+      "size_min_sqm": 26,
+      "size_max_sqm": 38,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ studio",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1 phòng ngủ",
+      "sub_zone": "Sapphire 2",
+      "size_min_sqm": 43,
+      "size_max_sqm": 48,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2 phòng ngủ",
+      "sub_zone": "Sapphire 2",
+      "size_min_sqm": 55,
+      "size_max_sqm": 66,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3 phòng ngủ",
+      "sub_zone": "Sapphire 2",
+      "size_min_sqm": 75,
+      "size_max_sqm": 80,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [],
+  "amenities": [
+    { "name": "Sân chơi trẻ em", "category": "Tiện ích ngoài trời", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Vườn dưỡng sinh", "category": "Cảnh quan", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Sân tập ném bóng rổ", "category": "Thể thao & Sức khỏe", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Sân bóng bàn", "category": "Thể thao & Sức khỏe", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Sân vườn", "category": "Cảnh quan", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Đường dạo", "category": "Cảnh quan", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Khối thương mại dịch vụ", "category": "Tiện ích nội khu", "zone": "Sapphire 1", "has_photo": false },
+    { "name": "Trường Vinschool", "category": "Giáo dục", "zone": "Sapphire 1", "has_photo": false }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 37.5, "apartment_type": "Studio", "sub_zone": "Sapphire 1", "display_order": 1, "url": null },
+    { "name": "Căn 1 phòng ngủ", "size_sqm": 51.5, "apartment_type": "1 phòng ngủ", "sub_zone": "Sapphire 1", "display_order": 2, "url": null },
+    { "name": "Căn 2 phòng ngủ", "size_sqm": 69.4, "apartment_type": "2 phòng ngủ", "sub_zone": "Sapphire 1", "display_order": 3, "url": null },
+    { "name": "Căn 3 phòng ngủ", "size_sqm": 106.3, "apartment_type": "3 phòng ngủ", "sub_zone": "Sapphire 1", "display_order": 4, "url": null },
+    { "name": "Căn Studio", "size_sqm": 38, "apartment_type": "Studio", "sub_zone": "Sapphire 2", "display_order": 5, "url": null },
+    { "name": "Căn 1 phòng ngủ", "size_sqm": 48, "apartment_type": "1 phòng ngủ", "sub_zone": "Sapphire 2", "display_order": 6, "url": null },
+    { "name": "Căn 2 phòng ngủ", "size_sqm": 66, "apartment_type": "2 phòng ngủ", "sub_zone": "Sapphire 2", "display_order": 7, "url": null },
+    { "name": "Căn 3 phòng ngủ", "size_sqm": 80, "apartment_type": "3 phòng ngủ", "sub_zone": "Sapphire 2", "display_order": 8, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí phân khu Sapphire trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí phân khu Sapphire (Sapphire 1 và Sapphire 2) trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng phân khu Sapphire",
+        "description": "Mặt bằng tổng thể phân khu Sapphire, có đánh dấu vị trí các tòa Sapphire 1 và Sapphire 2",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "name": "Mặt bằng phân khu Sapphire 2",
+        "description": "Mặt bằng chi tiết tiểu khu Sapphire 2 với 16 tòa S2.01 - S2.19",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "name": "Mặt bằng phân khu Sapphire 1",
+        "description": "Mặt bằng chi tiết tiểu khu Sapphire 1 với 11 tòa S1.01 - S1.12, khu công viên trung tâm hồ Mini",
+        "display_order": 3,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "S1.01", "floor_label": "Mặt bằng điển hình tòa S1.01", "sub_zone": "Sapphire 1", "display_order": 1, "url": null },
+      { "tower": "S1.02", "floor_label": "Mặt bằng điển hình tòa S1.02", "sub_zone": "Sapphire 1", "display_order": 2, "url": null },
+      { "tower": "S1.03", "floor_label": "Mặt bằng điển hình tòa S1.03", "sub_zone": "Sapphire 1", "display_order": 3, "url": null },
+      { "tower": "S1.04", "floor_label": "Mặt bằng điển hình tòa S1.04", "sub_zone": "Sapphire 1", "display_order": 4, "url": null },
+      { "tower": "S1.05", "floor_label": "Mặt bằng điển hình tòa S1.05", "sub_zone": "Sapphire 1", "display_order": 5, "url": null },
+      { "tower": "S1.06", "floor_label": "Mặt bằng điển hình tòa S1.06", "sub_zone": "Sapphire 1", "display_order": 6, "url": null },
+      { "tower": "S1.07", "floor_label": "Mặt bằng điển hình tòa S1.07", "sub_zone": "Sapphire 1", "display_order": 7, "url": null },
+      { "tower": "S1.08", "floor_label": "Mặt bằng điển hình tòa S1.08", "sub_zone": "Sapphire 1", "display_order": 8, "url": null },
+      { "tower": "S1.09", "floor_label": "Mặt bằng điển hình tòa S1.09", "sub_zone": "Sapphire 1", "display_order": 9, "url": null },
+      { "tower": "S1.10", "floor_label": "Mặt bằng điển hình tòa S1.10", "sub_zone": "Sapphire 1", "display_order": 10, "url": null },
+      { "tower": "S1.11", "floor_label": "Mặt bằng điển hình tòa S1.11", "sub_zone": "Sapphire 1", "display_order": 11, "url": null },
+      { "tower": "S1.12", "floor_label": "Mặt bằng điển hình tòa S1.12", "sub_zone": "Sapphire 1", "display_order": 12, "url": null },
+      { "tower": "S2.01", "floor_label": "Mặt bằng điển hình tòa S2.01", "sub_zone": "Sapphire 2", "display_order": 13, "url": null },
+      { "tower": "S2.02", "floor_label": "Mặt bằng điển hình tòa S2.02", "sub_zone": "Sapphire 2", "display_order": 14, "url": null },
+      { "tower": "S2.03", "floor_label": "Mặt bằng điển hình tòa S2.03", "sub_zone": "Sapphire 2", "display_order": 15, "url": null },
+      { "tower": "S2.04", "floor_label": "Mặt bằng điển hình tòa S2.04", "sub_zone": "Sapphire 2", "display_order": 16, "url": null },
+      { "tower": "S2.05", "floor_label": "Mặt bằng điển hình tòa S2.05", "sub_zone": "Sapphire 2", "display_order": 17, "url": null },
+      { "tower": "S2.06", "floor_label": "Mặt bằng điển hình tòa S2.06", "sub_zone": "Sapphire 2", "display_order": 18, "url": null },
+      { "tower": "S2.07", "floor_label": "Mặt bằng điển hình tòa S2.07", "sub_zone": "Sapphire 2", "display_order": 19, "url": null },
+      { "tower": "S2.08", "floor_label": "Mặt bằng điển hình tòa S2.08", "sub_zone": "Sapphire 2", "display_order": 20, "url": null },
+      { "tower": "S2.09", "floor_label": "Mặt bằng điển hình tòa S2.09", "sub_zone": "Sapphire 2", "display_order": 21, "url": null },
+      { "tower": "S2.10", "floor_label": "Mặt bằng điển hình tòa S2.10", "sub_zone": "Sapphire 2", "display_order": 22, "url": null },
+      { "tower": "S2.11", "floor_label": "Mặt bằng điển hình tòa S2.11", "sub_zone": "Sapphire 2", "display_order": 23, "url": null },
+      { "tower": "S2.12", "floor_label": "Mặt bằng điển hình tòa S2.12", "sub_zone": "Sapphire 2", "display_order": 24, "url": null },
+      { "tower": "S2.13", "floor_label": "Mặt bằng điển hình tòa S2.13", "sub_zone": "Sapphire 2", "display_order": 25, "url": null },
+      { "tower": "S2.14", "floor_label": "Mặt bằng điển hình tòa S2.14", "sub_zone": "Sapphire 2", "display_order": 26, "url": null },
+      { "tower": "S2.15", "floor_label": "Mặt bằng điển hình tòa S2.15", "sub_zone": "Sapphire 2", "display_order": 27, "url": null },
+      { "tower": "S2.16", "floor_label": "Mặt bằng điển hình tòa S2.16", "sub_zone": "Sapphire 2", "display_order": 28, "url": null },
+      { "tower": "S2.17", "floor_label": "Mặt bằng điển hình tòa S2.17", "sub_zone": "Sapphire 2", "display_order": 29, "url": null },
+      { "tower": "S2.18", "floor_label": "Mặt bằng điển hình tòa S2.18", "sub_zone": "Sapphire 2", "display_order": 30, "url": null },
+      { "tower": "S2.19", "floor_label": "Mặt bằng điển hình tòa S2.19", "sub_zone": "Sapphire 2", "display_order": 31, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "project": {
+    "id": "the-paris",
+    "name": "The Paris",
+    "full_name": "The Paris - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "The Metropolitan",
+    "developer": "Mitsubishi Corporation và Vingroup",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "The Paris là khu căn hộ cuối cùng thuộc phân khu The Metropolitan được mở bán tại Vinhomes Ocean Park.",
+    "overview": {
+      "towers": [
+        "PR1",
+        "PR2",
+        "PR3",
+        "PR5",
+        "PR6"
+      ],
+      "towers_on_sale": [
+        "PR1",
+        "PR2",
+        "PR3",
+        "PR5",
+        "PR6"
+      ],
+      "total_units": 3144,
+      "unit_types": "Studio, 1PN, 1PN+1, 2PN, 2PN+1, 3PN, 4PN",
+      "area_range": "27,1 – 113,1m²",
+      "floors": "30 – 38 tầng",
+      "handover": "Tháng 12/2026",
+      "ownership": "Sở hữu không thời hạn"
+    },
+    "location_description": "The Paris nằm tại phân khu The Metropolitan, phía Đông Bắc tiếp giáp đường Hải Đăng và khu đất quân sự, phía Đông Nam tiếp giáp đường nội khu và phân khu The Zurich, phía Tây Nam tiếp giáp đường Đại Dương cùng công viên cây xanh và hồ San Hô, phía Tây Bắc tiếp giáp đường Lý Thánh Tông (tuyến Metro số 08 tương lai). Dự án nằm trong lòng đại đô thị Vinhomes Ocean Park nên cư dân được thừa hưởng toàn bộ hệ sinh thái tiện ích của khu đô thị như hồ Ngọc Trai, Crystal Lagoons, trung tâm thương mại Vincom Mega Mall, trường học, bệnh viện Vinmec.",
+    "location_highlights": [
+      "Đông Bắc: tiếp giáp đường Hải Đăng và khu đất quân sự",
+      "Đông Nam: tiếp giáp đường nội khu và phân khu The Zurich",
+      "Tây Nam: tiếp giáp đường Đại Dương, công viên cây xanh, hồ San Hô",
+      "Tây Bắc: tiếp giáp đường Lý Thánh Tông (Metro số 08 tương lai)"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Chung cư",
+      "apartment_type": "Studio",
+      "size_min_sqm": 27.1,
+      "size_max_sqm": 30.9,
+      "price_min": 1800000000,
+      "price_max": 2200000000,
+      "currency": "VND",
+      "description": "Căn hộ studio"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1PN",
+      "size_min_sqm": 42.7,
+      "size_max_sqm": 43.5,
+      "price_min": 2700000000,
+      "price_max": 2800000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "1PN+1",
+      "size_min_sqm": 46.5,
+      "size_max_sqm": 54.8,
+      "price_min": 2900000000,
+      "price_max": 3300000000,
+      "currency": "VND",
+      "description": "Căn hộ 1 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2PN",
+      "size_min_sqm": 61.1,
+      "size_max_sqm": 74.2,
+      "price_min": 3800000000,
+      "price_max": 4200000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "2PN+1",
+      "size_min_sqm": 73.7,
+      "size_max_sqm": 76.8,
+      "price_min": 4600000000,
+      "price_max": 4900000000,
+      "currency": "VND",
+      "description": "Căn hộ 2 phòng ngủ cộng"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "3PN",
+      "size_min_sqm": 83.8,
+      "size_max_sqm": 97.4,
+      "price_min": 5100000000,
+      "price_max": 6200000000,
+      "currency": "VND",
+      "description": "Căn hộ 3 phòng ngủ"
+    },
+    {
+      "category": "Chung cư",
+      "apartment_type": "4PN",
+      "size_min_sqm": 113.1,
+      "size_max_sqm": 113.1,
+      "price_min": 6700000000,
+      "price_max": 7300000000,
+      "currency": "VND",
+      "description": "Căn hộ 4 phòng ngủ"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 1% khi không nhận bảo lãnh ngân hàng"
+    },
+    {
+      "no": 2,
+      "type": "Quà tặng",
+      "content": "Chiết khấu 2% gói quà tặng ban công sân vườn"
+    },
+    {
+      "no": 3,
+      "type": "Quà tặng",
+      "content": "Chiết khấu 3% gói quà tặng nội thất"
+    },
+    {
+      "no": 4,
+      "type": "Chiết khấu",
+      "content": "Chiết khấu 3–6% dành cho 100 khách hàng tiên phong"
+    },
+    {
+      "no": 5,
+      "type": "Thanh toán",
+      "content": "Không vay: thanh toán 14 đợt (2–3% mỗi đợt)"
+    },
+    {
+      "no": 6,
+      "type": "Thanh toán",
+      "content": "Tối đa thanh toán 50% trước khi nhận bàn giao"
+    },
+    {
+      "no": 7,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị căn hộ, lãi suất 0%, ân hạn nợ gốc 24 tháng"
+    }
+  ],
+  "amenities": [
+    {
+      "name": "Sảnh lễ tân",
+      "category": "Tiện ích nội tòa",
+      "has_photo": true
+    },
+    {
+      "name": "Cigar Lounge",
+      "category": "Tiện ích nội tòa",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng tập Gym",
+      "category": "Tiện ích nội tòa",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng Yoga",
+      "category": "Tiện ích nội tòa",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng tập Pilates",
+      "category": "Tiện ích nội tòa",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng vui chơi trẻ em",
+      "category": "Tiện ích nội tòa",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng Trà/Lounge/Âm nhạc",
+      "category": "Tiện ích nội tòa",
+      "has_photo": true
+    },
+    {
+      "name": "Phòng làm việc",
+      "category": "Tiện ích nội tòa",
+      "has_photo": false
+    },
+    {
+      "name": "Phòng Bida/Game",
+      "category": "Tiện ích nội tòa",
+      "has_photo": false
+    }
+  ],
+  "unit_layouts": [
+    { "name": "Căn Studio", "size_sqm": 30.9, "apartment_type": "Studio", "display_order": 1, "url": null },
+    { "name": "Căn 1PN", "size_sqm": 43.5, "apartment_type": "1PN", "display_order": 2, "url": null },
+    { "name": "Căn 1PN+1", "size_sqm": 54.8, "apartment_type": "1PN+1", "display_order": 3, "url": null },
+    { "name": "Căn 2PN", "size_sqm": 74.2, "apartment_type": "2PN", "display_order": 4, "url": null },
+    { "name": "Căn 2PN+1", "size_sqm": 76.8, "apartment_type": "2PN+1", "display_order": 5, "url": null },
+    { "name": "Căn 3PN", "size_sqm": 97.4, "apartment_type": "3PN", "display_order": 6, "url": null },
+    { "name": "Căn 4PN", "size_sqm": 113.1, "apartment_type": "4PN", "display_order": 7, "url": null }
+  ],
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí The Paris trong tổng thể Ocean City",
+        "description": "Phối cảnh tổng thể vị trí The Paris trong khu đô thị Vinhomes Ocean Park",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Tổng mặt bằng The Paris Vinhomes Ocean Park",
+        "description": "Mặt bằng tổng thể phân khu The Paris, có đánh dấu vị trí các tòa PR1, PR2, PR3, PR5, PR6 và Hồ San Hô",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      {
+        "tower": "PR1",
+        "floor_label": "Mặt bằng tòa PR1",
+        "display_order": 1,
+        "url": null
+      },
+      {
+        "tower": "PR2",
+        "floor_label": "Mặt bằng tòa PR2",
+        "display_order": 2,
+        "url": null
+      },
+      {
+        "tower": "PR3",
+        "floor_label": "Mặt bằng tòa PR3",
+        "display_order": 3,
+        "url": null
+      },
+      {
+        "tower": "PR5",
+        "floor_label": "Mặt bằng tòa PR5",
+        "display_order": 4,
+        "url": null
+      },
+      {
+        "tower": "PR6",
+        "floor_label": "Mặt bằng tòa PR6",
+        "display_order": 5,
+        "url": null
+      }
+    ],
+    "interior": [],
+    "amenity_photos": [
+      { "name": "Sảnh lễ tân", "display_order": 1, "url": null },
+      { "name": "Cigar Lounge", "display_order": 2, "url": null },
+      { "name": "Phòng tập Gym", "display_order": 3, "url": null },
+      { "name": "Phòng Yoga", "display_order": 4, "url": null },
+      { "name": "Phòng Trà/Lounge/Âm nhạc", "display_order": 5, "url": null }
+    ]
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}

@@ -1,0 +1,57 @@
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic[email]>=2.10.0
+pydantic-settings>=2.7.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.12
+prometheus-client>=0.21.0
+# IANA timezone database for ZoneInfo on Windows/minimal containers.
+tzdata>=2025.2
+
+# AI orchestration
+# Pinned to the 1.x line: agent_pipeline uses the LangGraph 1.x StateGraph API, which
+# differs substantially from 0.2.x. `langchain-core` arrives transitively via langgraph;
+# the umbrella `langchain` package is not used anywhere and is deliberately not listed.
+langgraph>=1.2,<2
+
+# Database
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+alembic>=1.14.0
+# sqlite (built-in)
+
+# Auth
+bcrypt>=4.2.0
+python-jose[cryptography]>=3.3.0
+
+# Storage / Vector DB
+minio>=7.2.0
+qdrant-client>=1.12.0
+redis>=5.0.0
+# BM25 sparse vectors for hybrid retrieval, computed locally (no API calls).
+fastembed>=0.4.2,<0.5
+
+# LLM - Gemini
+google-genai>=1.0.0
+
+# Reranking - Cohere Rerank v3.5 (hosted cross-encoder)
+cohere>=5.13.0,<8
+
+# Dev tools
+ruff>=0.8.0
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+# CI fails the build below a coverage floor, so the plugin is a hard requirement of the
+# test step rather than something a developer happens to have installed.
+pytest-cov>=6.0.0
+httpx>=0.28.0
+mypy>=1.13.0
+
+# Offline answer-quality eval (`eval/deepeval_suite.py`) is in requirements-eval.txt, not
+# here: the Dockerfile installs this file wholesale into the production image, and deepeval
+# is a large dependency that nothing under backend/ imports.
+
+# Handle docx and pdf
+PyMuPDF>=1.24
+python-docx>=1.1

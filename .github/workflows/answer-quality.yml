@@ -1,0 +1,67 @@
+# The half of eval that CI proper cannot run: real questions, real model, graded answers.
+#
+# `ci.yml` runs the golden set with the LLM stubbed, which proves routing and assembly and
+# is silent about whether Gemini answers well. This runs the same questions against the
+# real model. It is a schedule rather than a PR gate on purpose — it spends API calls and
+# the model is not deterministic, so blocking a merge on one sample would fail honest PRs
+# and teach everyone to re-run until green.
+#
+# Reading a run: `Required Facts`, `Forbidden Content` and `Listing Discipline` are decided
+# by rules over hand-written references, so a drop there is a real regression. The judged
+# metrics move on their own and are read as a trend, not as a gate.
+name: Answer quality
+
+on:
+  schedule:
+    # 02:00 UTC — 09:00 Hanoi, so a failure is waiting at the start of the working day.
+    - cron: "0 2 * * *"
+  # Also runnable by hand, which is how a prompt change gets checked before it ships.
+  workflow_dispatch:
+    inputs:
+      repeats:
+        description: "Runs per case (the model is not deterministic)"
+        default: "3"
+      judge_model:
+        description: "Judge model; different to GEMINI_MODEL buys independence"
+        default: ""
+
+jobs:
+  answer-quality:
+    runs-on: self-hosted
+    # A quota wait can stall a run; fail it rather than let it hold the runner all day.
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -r requirements-eval.txt
+
+      - name: Grade answers from the real model
+        run: |
+          python -m eval.deepeval_suite \
+            --repeats "${{ inputs.repeats || '3' }}" \
+            ${{ inputs.judge_model && format('--judge-model {0}', inputs.judge_model) || '' }} \
+            --rpm "${{ vars.GEMINI_EVAL_RPM || '15' }}" \
+            --fail-under 0.9
+        env:
+          APP_ENV: test
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+
+      - name: Keep the report
+        # `always()`: the report is most worth reading on the run that failed.
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: answer-quality-report
+          path: eval/results/deepeval_report.json
+          if-no-files-found: warn

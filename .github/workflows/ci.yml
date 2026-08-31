@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint with ruff
+        run: ruff check backend/ tests/ eval/
+
+      - name: Check formatting
+        run: ruff format --check backend/ tests/ eval/
+
+      - name: Type-check with mypy
+        run: mypy backend/
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
+        env:
+          APP_ENV: test
+          GEMINI_API_KEY: test-key
+
+      - name: Golden RAG regression gate
+        # Fixed Sale questions (eval/golden_dataset.py) run through the real pipeline with
+        # retrieval/inventory/LLM stubbed at the same boundary as the rest of the suite —
+        # deterministic, no API key needed. Already covered by the step above; run again
+        # standalone so a routing/HITL/citation regression fails CI with its own clearly
+        # named step instead of being buried in the full test log.
+        run: pytest tests/test_services/test_golden_regression.py -v --tb=short
+        env:
+          APP_ENV: test
+          GEMINI_API_KEY: test-key

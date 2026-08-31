@@ -1,0 +1,127 @@
+{
+  "project": {
+    "id": "shop-thuong-mai-sh09",
+    "name": "Shop thương mại SH09",
+    "full_name": "Shop thương mại dịch vụ San Hô 09 (SH09) - Vinhomes Ocean Park",
+    "parent_project_id": "vinhomes-ocean-park",
+    "sub_zone": "San Hô",
+    "developer": "Vinhomes",
+    "location": {
+      "district": "Quận Gia Lâm",
+      "city": "Hà Nội",
+      "within": "Vinhomes Ocean Park"
+    },
+    "description": "SH09 là dãy shop thương mại dịch vụ thuộc phân khu San Hô, được mô tả là khu shop TMDV sầm uất bậc nhất tại Vinhomes Ocean Park, kết nối trực tiếp với chung cư The Sapphire, Masteri Waterfront và hàng chục nghìn cư dân hiện hữu.",
+    "overview": {
+      "product_type": "Shop thương mại dịch vụ",
+      "total_units": 24,
+      "storeys": "4 tầng nổi + 1 tum",
+      "land_area_range": "81 – 165,5m²",
+      "construction_area_range": "57,9 – 61,2m²",
+      "total_floor_area_sqm": 218.1,
+      "handover": "Nhận nhà ngay",
+      "ownership": "Sở hữu 50 năm, được làm sổ hồng ngay"
+    },
+    "location_description": "SH09 nằm trong phân khu San Hô, kế cận Đại lộ 52m, Đường 30m, Hồ Ngọc Trai 24,5ha và Bệnh viện Vinmec, gần Đại học VinUni. Kết nối trực tiếp với chung cư The Sapphire, Masteri Waterfront và dãy nhà phố San Hô 6, phục vụ lượng lớn cư dân hiện hữu.",
+    "location_highlights": [
+      "Kế cận Đại lộ 52m và Đường 30m",
+      "Kế cận Hồ Ngọc Trai 24,5ha",
+      "Gần Bệnh viện Vinmec (tương lai) và Đại học VinUni",
+      "Kết nối trực tiếp chung cư The Sapphire, Masteri Waterfront",
+      "Kế cận dãy nhà phố San Hô 6"
+    ]
+  },
+  "pricing": [
+    {
+      "category": "Shophouse",
+      "apartment_type": "Shop thương mại dịch vụ",
+      "size_min_sqm": 81,
+      "size_max_sqm": 165.5,
+      "price_min": null,
+      "price_max": null,
+      "currency": "VND",
+      "storeys": "4 tầng nổi + 1 tum",
+      "description": "Shop thương mại dịch vụ SH09, diện tích đất 81-165,5m², diện tích xây dựng 57,9-61,2m², tổng sàn xây dựng 218,1m²",
+      "price_note": "Liên hệ / Tải bảng giá gốc"
+    }
+  ],
+  "sales_policies": [
+    {
+      "no": 1,
+      "type": "Chiết khấu",
+      "content": "Thanh toán sớm: chiết khấu 7,5% giá bán"
+    },
+    {
+      "no": 2,
+      "type": "Vay vốn",
+      "content": "Hỗ trợ vay 70% giá trị, lãi suất 0%, ân hạn nợ gốc và không phạt trả nợ trước hạn trong 36 tháng"
+    },
+    {
+      "no": 3,
+      "type": "Vay vốn",
+      "content": "Sau thời gian hỗ trợ: đảm bảo lãi suất 9%/năm trong 2 năm tiếp theo"
+    },
+    {
+      "no": 4,
+      "type": "Quà tặng",
+      "content": "Gói hoàn thiện trị giá 500 triệu đồng, trừ trực tiếp vào giá bán"
+    },
+    {
+      "no": 5,
+      "type": "Quà tặng",
+      "content": "Tặng miễn phí phí dịch vụ 60 tháng"
+    },
+    {
+      "no": 6,
+      "type": "Quà tặng",
+      "content": "Hỗ trợ tiền thuê tương đương chiết khấu 2% giá bán"
+    },
+    {
+      "no": 7,
+      "type": "Quà tặng",
+      "content": "Voucher Vinmec trị giá 100 triệu đồng"
+    }
+  ],
+  "amenities": [
+    { "name": "Đại lộ 52m", "category": "Giao thông", "has_photo": false },
+    { "name": "Đường 30m", "category": "Giao thông", "has_photo": false },
+    { "name": "Hồ Ngọc Trai", "category": "Cảnh quan", "size": "24,5 ha", "has_photo": false },
+    { "name": "Đại học VinUni", "category": "Giáo dục", "has_photo": false },
+    { "name": "Bệnh viện Vinmec", "category": "Y tế", "has_photo": false, "note": "Tương lai" },
+    { "name": "Dãy nhà phố San Hô 6", "category": "Tiện ích nội khu", "has_photo": false },
+    { "name": "Chung cư The Sapphire", "category": "Kết nối cư dân", "has_photo": false },
+    { "name": "Chung cư Masteri Waterfront", "category": "Kết nối cư dân", "has_photo": false }
+  ],
+  "business_conditions": {
+    "description": "Được phép kinh doanh đa dạng ngành nghề: văn phòng, nhà hàng, cafe, cửa hàng và các dịch vụ khác. Vỉa hè rộng được phép sử dụng cho hoạt động kinh doanh."
+  },
+  "images": {
+    "gallery": [],
+    "location_maps": [
+      {
+        "name": "Vị trí Shop thương mại SH09",
+        "description": "Phối cảnh vị trí SH09 trong phân khu San Hô, kế cận Đại lộ 52m và Hồ Ngọc Trai",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "master_plan": [
+      {
+        "name": "Mặt bằng dãy shop SH09",
+        "description": "Mặt bằng tổng thể dãy shop thương mại dịch vụ San Hô 09",
+        "display_order": 1,
+        "url": null
+      }
+    ],
+    "floor_plans": [
+      { "tower": "SH09", "floor_label": "Mặt bằng điển hình shop SH09", "display_order": 1, "url": null }
+    ],
+    "interior": [],
+    "amenity_photos": []
+  },
+  "contact": {
+    "hotline": "+84915976556",
+    "phone": "091 597 6556",
+    "business_hours": "24/7"
+  }
+}
