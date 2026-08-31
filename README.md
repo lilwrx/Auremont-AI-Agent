@@ -273,11 +273,11 @@ Setup, the four checks CI runs, and the parts of the pipeline that need care are
 
 ## 👤 Team
 
-Developed by **Team P-110**, Khóa 3 AI Thực Chiến:
-- Nguyễn Quang Vinh (Team Lead)
-- Hoàng Trường Giang
-- Lê Thị Trúc Linh
-- Đào Ngọc Duy
+Developed by **Team P-110**, Khóa 3 VIN AI Thực Chiến:
+- Nguyễn Quang Vinh (Team Lead, Backend, AI)
+- Hoàng Trường Giang (Backend, AI)
+- Lê Thị Trúc Linh (Devop, UI/UX)
+- Đào Ngọc Duy(UI/UX)
 
 ---
 
